@@ -96,7 +96,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 ### Session 任务发布
 
-Flink-Native-Kubernetes Session 任务 K8s 额外的配置（pod-template 等）完全由提前部署的 Flink-Session 集群决定，请直接参考 Flink-Doc：https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/#rbac
+Flink-Native-Kubernetes Session 任务 K8s 额外的配置（pod-template 等）完全由提前部署的 Flink-Session 集群决定，请直接参考 Flink-Doc：https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes
 
 <br/>
 
