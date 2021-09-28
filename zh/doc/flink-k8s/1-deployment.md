@@ -11,13 +11,13 @@ StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/
 * Native-Kubernetes Application
 * Native-Kubernetes Session
 
-单个 StreamX 实例当前只支持单个 Kubernetes 集群。
+单个 StreamX 实例当前只支持单个 Kubernetes 集群，如果您有多 Kubernetes 支持的诉求，欢迎提交相关的 [Fearure Request Issue](https://github.com/streamxhub/streamx/issues) : )
 
 <br/>
 
 ## 额外环境要求
 
-StreamX Flink-K8s 具备以下额外的运行环境：
+StreamX Flink-K8s 需要具备以下额外的运行环境：
 
 * Kubernetes
 
