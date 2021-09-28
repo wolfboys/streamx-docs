@@ -1,20 +1,20 @@
 ---
-title: 'Hadoop 资源集成'
+title: 'Hadoop Resource Integration'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+date: 2021/09/28
 ---
 
-## 在 K8s 上使用 Hadoop 资源
+## Hadoop Resource Integration
 
-在 StreamX Flink-K8s runtime 下使用 Hadoop 资源，如 checkpoint 挂载 HDFS、读写 Hive 等，目前用户需要自行构建相关 Flink Base   Docker Image，Image 中需要包含以下内容：
+To use Hadoop resources under StreamX Flink-K8s runtime, such as checkpoint mounting HDFS, accessing Hive, etc.  Users need to build the relevant Flink Base Docker Image by themselves. The Image needs to contain the following content：
 
-* 包含 Hadoop Lib， 并设置 `HADOOP_CLASSPATH` 到该目录；
-* 包含 Hadoop Config，并设置 `HADOOP_CONF_DIR` 到该目录；
-* 如果使用 Hive， 需要包含 Hive Config；
+* Include Hadoop Lib resource, and set `HADOOP_CLASSPATH`；
+* Include Hadoop Config resource，and set `HADOOP_CONF_DIR`；
+* Include  Hive Config Resource when using Hive;
 
 <br/>
 
-这其实挺不优雅的 🥲，我们将在随后的版本里支持**自动集成 Hadoop** 的功能支持， Plz look forward to !
+This is actually quite inconvenient 🥲, we will support automatic integration of Hadoop features in subsequent releases, Plz look forward to !
 

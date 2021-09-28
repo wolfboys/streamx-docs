@@ -1,24 +1,22 @@
 ---
-title: 'K8s PVC 资源使用'
+title: 'K8s PVC Usage'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+date: 2021/09/28
 ---
 
-## K8s PVC 资源使用说明
+## K8s PVC Resource Usage
 
-当前版本 StreamX Flink-K8s 任务对 PVC 资源（挂载 checkpoint/savepoint/logs 等文件资源）的支持基于 pod-template。
-
-Native-Kubernetes Session 由创建 Session Cluster 时控制，这里不再赘述。Native-Kubernetes Application 支持在 StreamX 页面上直接编写 `pod-template`，`jm-pod-template`，`tm-pod-template` 配置。
+The current version of StreamX Flink-K8s task has support for PVC resources based on Flink k8s-pod-template. Streamx supports editing `pod-template`, `jm-pod-template`, `tm-pod-template` configurations directly on the UI page.
 
 <br/>
 
-以下是一个简要的示例，假设已经提前创建 `flink-checkpoint`， `flink-savepoint` 两个 PVC ：
+The following is a simple example, assuming that two PVCs, `flink-checkpoint` and `flink-savepoint`, have been created in advance.
 
-![image-20210927215912190](../../../asserts/k8s_pvc.png)
+![image-20210927215912190](../../asserts/k8s_pvc.png)
 
-pod-template 配置文本如下：
+pod-template configuration:
 
 ```yaml
 apiVersion: v1
@@ -42,17 +40,13 @@ spec:
         claimName: flink-savepoint
 ```
 
-由于使用了 `rockdb-backend`，该依赖可以由 3 种方式提供：
+Since `rockdb-backend` is used, there are 3 ways to provide this dependency:
 
-1. 提供的 Flink Base Docker Image 已经包含该依赖（用户自行解决依赖冲突）；
+1. The Flink Base Docker Image provided already contains this dependency.
 
-2. 在 StreamX 本地 `Workspace/jars` 目录下放置 `flink-statebackend-rocksdb_xx.jar` 依赖；
+2. Place the `flink-statebackend-rocksdb_xx.jar` in the StreamX local directory `Workspace/jars`.
 
-3. 在 StreamX Dependency 配置中加入 rockdb-backend 依赖（此时 StreamX 会自动解决依赖冲突）：
+3. Add the `rockdb-backend ` coordinate to the Dependency configuration of the StreamX page (at this point StreamX will automatically resolve the dependency conflict):
 
-   ![image-20210927220203314](../../../asserts/rocksdb_dependency.png)
-
-<br/>
-
-在随后版本中，我们会提供一种优雅的 pod-template 配置自动生成的方式，来简化 k8s-pvc 挂载这一过程 : )
+   ![image-20210927220203314](../../asserts/rocksdb_dependency.png)
 

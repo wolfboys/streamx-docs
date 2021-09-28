@@ -36,7 +36,7 @@ export HADOOP_YARN_HOME=$HADOOP_HOME/../hadoop-yarn
 
 ### Kubernetes
 
-使用 `Flink on Kubernetes`，需要额外部署/或使用已经存在的 Kubernetes 集群，请参考条目： [**StreamX Flink-K8s 集成支持**](../flink-k8s/1-deployment.md)。
+使用 `Flink on Kubernetes`，需要额外部署/或使用已经存在的 Kubernetes 集群，请参考条目： [**Flink Kubernetes Integration**](../flink-k8s/1-deployment.md)。
 
 ## 编译 & 安装
 
