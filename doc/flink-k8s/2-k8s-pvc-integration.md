@@ -3,7 +3,7 @@ title: 'K8s PVC Usage'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/28
+time: 2021/09/28
 ---
 
 ## K8s PVC Resource Usage
