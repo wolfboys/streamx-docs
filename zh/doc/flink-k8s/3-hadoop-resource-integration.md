@@ -3,7 +3,7 @@ title: 'Hadoop 资源集成'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+time: 2021/09/27
 ---
 
 ## 在 K8s 上使用 Hadoop 资源
