@@ -3,7 +3,7 @@ title: 'Flink Kubernetes Integration'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/28
+time: 2021/09/28
 ---
 
 StreamX Flink Kubernetes Integration is based on [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/), and supports the following Flink-Native-K8s runtime mode:
@@ -20,9 +20,7 @@ Currently, a single StreamX application instance supports only a single Kubernet
 StreamX Flink- K8s Integration requires the following additional software environment: 
 
 * Kubernetes
-
 * Maven（StreamX running machines require）
-
 * Docker（StreamX running machines require）
 
 StreamX instance do not need to be mandatorily deployed on the Kubernetes nodes. It can be deployed on the machine external to the Kubernetes cluster, just needs to be open to networks communication with the Kubernetes cluster.
