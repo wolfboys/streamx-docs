@@ -1,9 +1,9 @@
 ---
- title: 'Flink K8s 集成支持'
+title: 'Flink K8s 集成支持'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+time: 2021/09/27
 ---
 
 StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/) 实现，支持以下 Flink 运行模式：
@@ -20,9 +20,7 @@ StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/
 StreamX Flink-K8s 需要具备以下额外的运行环境：
 
 * Kubernetes
-
 * Maven（StreamX 运行节点具备）
-
 * Docker（StreamX 运行节点是具备）
 
 StreamX 实例并不需要强制部署在 Kubernetes 所在节点上，可以部署在 Kubernetes 集群外部节点，但是需要该 StreamX 部署节点与 Kubernetes 集群**保持网络通信畅通**。
