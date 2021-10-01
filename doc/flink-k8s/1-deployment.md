@@ -83,7 +83,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 The configuration to be specified are the following:
 
-* **Flink Base Docker Image**： Tag of the base Flink Docker image can be obtained from [DockerHub - office/flink](https://hub.docker.com/_/flink), and also supports the user's private image.
+* **Flink Base Docker Image**： Tag of the base Flink Docker image can be obtained from [DockerHub - offical/flink](https://hub.docker.com/_/flink), and also supports the user's private image.
 * **Rest-Service Exposed Type**：Corresponds to the Flink native configuration of  [kubernetes.rest-service.exposed.type](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/config/#kubernetes):
   * `ClusterIP`：Requires StreamX for direct access to the K8s internal network;
   * `LoadBalancer`：Requires K8s to create the LoadBalancer resource in advance while StreamX can access to that LoadBalancer gateway.
