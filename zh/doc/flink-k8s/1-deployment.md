@@ -1,9 +1,9 @@
 ---
- title: 'Flink K8s 集成支持'
+title: 'Flink K8s 集成支持'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+time: 2021/09/27
 ---
 
 StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/) 实现，支持以下 Flink 运行模式：
@@ -20,9 +20,7 @@ StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/
 StreamX Flink-K8s 需要具备以下额外的运行环境：
 
 * Kubernetes
-
 * Maven（StreamX 运行节点具备）
-
 * Docker（StreamX 运行节点是具备）
 
 StreamX 实例并不需要强制部署在 Kubernetes 所在节点上，可以部署在 Kubernetes 集群外部节点，但是需要该 StreamX 部署节点与 Kubernetes 集群**保持网络通信畅通**。
@@ -83,7 +81,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 其中需要说明的参数如下：
 
-* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - offical/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
+* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - office/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
 * **Rest-Service Exposed Type**：对应 Flink 原生 [kubernetes.rest-service.exposed.type](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/config/#kubernetes) 配置，各个候选值说明：
   * `ClusterIP`：需要 StreamX 可直接访问 K8s 内部网络；
   * `LoadBalancer`：需要 K8s 提前创建 LoadBalancer 资源，且 Flink Namespace 具备自动绑定权限，同时 StreamX 可以访问该 LoadBalancer 网关；

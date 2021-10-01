@@ -3,7 +3,7 @@ title: 'Hadoop Resource Integration'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/28
+time: 2021/09/28
 ---
 
 ## Hadoop Resource Integration

@@ -3,7 +3,7 @@ title: 'Flink Kubernetes Integration'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/28
+time: 2021/09/28
 ---
 
 StreamX Flink Kubernetes Integration is based on [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/), and supports the following Flink-Native-K8s runtime mode:
@@ -20,9 +20,7 @@ Currently, a single StreamX application instance supports only a single Kubernet
 StreamX Flink- K8s Integration requires the following additional software environment: 
 
 * Kubernetes
-
 * Maven（StreamX running machines require）
-
 * Docker（StreamX running machines require）
 
 StreamX instance do not need to be mandatorily deployed on the Kubernetes nodes. It can be deployed on the machine external to the Kubernetes cluster, just needs to be open to networks communication with the Kubernetes cluster.
@@ -83,7 +81,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 The configuration to be specified are the following:
 
-* **Flink Base Docker Image**： Tag of the base Flink Docker image can be obtained from [DockerHub - offical/flink](https://hub.docker.com/_/flink), and also supports the user's private image.
+* **Flink Base Docker Image**： Tag of the base Flink Docker image can be obtained from [DockerHub - office/flink](https://hub.docker.com/_/flink), and also supports the user's private image.
 * **Rest-Service Exposed Type**：Corresponds to the Flink native configuration of  [kubernetes.rest-service.exposed.type](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/config/#kubernetes):
   * `ClusterIP`：Requires StreamX for direct access to the K8s internal network;
   * `LoadBalancer`：Requires K8s to create the LoadBalancer resource in advance while StreamX can access to that LoadBalancer gateway.
