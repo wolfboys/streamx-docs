@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://www.streamxhub.com/sitemap.xml
+Sitemap: http://www.streamxhub.com/streamx-docs/sitemap.xml

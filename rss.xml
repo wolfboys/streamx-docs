@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="http://www.streamxhub.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://www.streamxhub.com/streamx-docs/rss.xml" rel="self" type="application/rss+xml"/>
     <title>StreamX</title>
-    <link>http://www.streamxhub.com/</link>
-    <description>StreamX 是一个 Apache Flink&amp;Spark 极速开发框架,项目的初衷是 ——让 Flink&amp;Spark 更简单。其定位是 Flink&amp;Spark 开发脚手架 + 流批一体大数据平台,一站式大数据平台,Flink大数据平台,Flink可视化数据平台,LowCode平台,流批一体,一站式,Flink,Spark,FlinkSQL,Application,sqlSubmit,SpringBoot,Vue,flink-connectors</description>
+    <link>http://www.streamxhub.com/streamx-docs/</link>
+    <description>StreamX 是一个 Apache Flink &amp; Spark 极速开发框架,项目的初衷是 ——让 Flink &amp; Spark 更简单。其定位是 Flink &amp; Spark 开发脚手架 + 流批一体大数据平台,一站式大数据平台,Flink 大数据平台,Flink 可视化数据平台, LowCode 平台, 流批一体, 一站式, Flink, Spark, FlinkSQL, Application, sqlSubmit, SpringBoot, Vue, flink-connectors</description>
     <language>en-US</language>
-    <pubDate>Mon, 20 Dec 2021 03:57:53 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Dec 2021 03:57:53 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Dec 2021 09:56:50 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Dec 2021 09:56:50 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by benjobs</copyright>
     <item>
       <title>Document</title>
-      <link>http://www.streamxhub.com/doc/</link>
-      <guid>http://www.streamxhub.com/doc/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Document</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Document</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
     </item>
     <item>
       <title>高级扩展</title>
-      <link>http://www.streamxhub.com/doc/advanced/advanced/</link>
-      <guid>http://www.streamxhub.com/doc/advanced/advanced/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">高级扩展</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/advanced/advanced/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/advanced/advanced/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">高级扩展</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Clickhouse Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/clickhouse/</link>
-      <guid>http://www.streamxhub.com/doc/connector/clickhouse/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Clickhouse Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/clickhouse/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/clickhouse/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Clickhouse Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Elasticsearch Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/es/</link>
-      <guid>http://www.streamxhub.com/doc/connector/es/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Elasticsearch Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/es/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/es/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Elasticsearch Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Http Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/http/</link>
-      <guid>http://www.streamxhub.com/doc/connector/http/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Http Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/http/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/http/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Http Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Jdbc Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/jdbc/</link>
-      <guid>http://www.streamxhub.com/doc/connector/jdbc/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Jdbc Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/jdbc/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/jdbc/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Jdbc Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>Flink 官方 提供了<a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/connectors/jdbc.html" target="_blank" rel="noopener noreferrer">JDBC</a>的连接器,用于从 JDBC 中读取或者向其中写入数据,可提供 <mark>AT_LEAST_ONCE</mark> (至少一次)的处理语义</p>
 <p><code>StreamX</code>中基于两阶段提交实现了 <mark>EXACTLY_ONCE</mark> (精确一次)语义的<code>JdbcSink</code>,并且采用<a href="https://github.com/brettwooldridge/HikariCP" target="_blank" rel="noopener noreferrer"><code>光 HikariCP</code></a>为连接池,让数据的读取和写入更简单更准确</p>
 <h2 id="jdbc-信息配置"> Jdbc 信息配置</h2>
@@ -380,10 +380,10 @@
     </item>
     <item>
       <title>Apache Kafka Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/kafka/</link>
-      <guid>http://www.streamxhub.com/doc/connector/kafka/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Apache Kafka Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/kafka/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/kafka/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Apache Kafka Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/zh/dev/connectors/kafka.html" target="_blank" rel="noopener noreferrer">Flink 官方</a>提供了<a href="http://kafka.apache.org" target="_blank" rel="noopener noreferrer">Apache Kafka</a>的连接器,用于从 Kafka topic 中读取或者向其中写入数据,可提供 <mark>精确一次</mark> 的处理语义</p>
 <p><code>StreamX</code>中<code>KafkaSource</code>和<code>KafkaSink</code>基于官网的<code>kafka connector</code>进一步封装,屏蔽很多细节,简化开发步骤,让数据的读取和写入更简单</p>
 <h2 id="依赖"> 依赖</h2>
@@ -1187,28 +1187,28 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     </item>
     <item>
       <title>MongoDb Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/mongo/</link>
-      <guid>http://www.streamxhub.com/doc/connector/mongo/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">MongoDb Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/mongo/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/mongo/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">MongoDb Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Redis Connector</title>
-      <link>http://www.streamxhub.com/doc/connector/redis/</link>
-      <guid>http://www.streamxhub.com/doc/connector/redis/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Redis Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/connector/redis/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/connector/redis/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Redis Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>安装部署</title>
-      <link>http://www.streamxhub.com/doc/console/deploy/</link>
-      <guid>http://www.streamxhub.com/doc/console/deploy/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">安装部署</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/console/deploy/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/console/deploy/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">安装部署</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>streamx-console 是一个综合实时数据平台，低代码 ( Low Code ) ,Flink Sql 平台，可以较好的管理 Flink 任务，集成了项目编译、发布、参数配置、启动、savepoint,火焰图 ( flame graph ) ,Flink SQL,监控等诸多功能于一体，大大简化了 Flink 任务的日常操作和维护，融合了诸多最佳实践。其最终目标是打造成一个实时数仓，流批一体的一站式大数据解决方案</p>
 </blockquote>
@@ -1342,10 +1342,10 @@ streamx-console-service-1.0.0
     </item>
     <item>
       <title>开发环境</title>
-      <link>http://www.streamxhub.com/doc/console/deployment/</link>
-      <guid>http://www.streamxhub.com/doc/console/deployment/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">开发环境</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/console/deployment/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/console/deployment/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">开发环境</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p><span style="background-color:#ffffff; color:#333333">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="https://github.com/streamxhub/streamx" target="_blank">StreamX</a><span style="background-color:#ffffff; color:#333333">&nbsp;</span>遵循 Apache-2.0 开源协议，将会是个长期更新的活跃项目，欢迎大家提交<a href="https://github.com/streamxhub/streamx/pulls">PR</a> 或 <a href="https://github.com/streamxhub/streamx/issues/new/choose">Issue</a>。喜欢请给个 <a href="https://github.com/streamxhub/streamx/stargazers">Star</a>。您的支持是我们最大的动力， 该项目从开源以来受到不少朋友的关注和认可，表示感谢，已陆续有来自金融，数据分析，车联网，智能广告，地产等公司的朋友在使用或二开，也不乏来自一线大厂的朋友在研究使用，欢迎更多的开发者加入一块贡献，不只是代码的贡献，还寻求使用文档，体验报告，问答等方面的贡献</p>
 <p>StreamX 总体组件栈架构如下， 由 streamx-core 和 streamx-console 两个大的部分组成，其中 streamx-core 是开发时框架，这里不做讲解，本章节具体讲讲如何在本地搭建 streamx-console 流批一体平台的开发环境，为了方便讲解，本文中所说的 <code>streamx-console</code> 均指 <code>streamx-console 平台</code></p>
 <center>
@@ -1495,10 +1495,10 @@ streamx-console-service-${version}
     </item>
     <item>
       <title>快速开始</title>
-      <link>http://www.streamxhub.com/doc/console/quickstart/</link>
-      <guid>http://www.streamxhub.com/doc/console/quickstart/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">快速开始</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/console/quickstart/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/console/quickstart/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">快速开始</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="如何使用"> 如何使用</h2>
 <p>streamx-console 定位是流批一体的大数据平台，一站式解决方案，使用起来非常简单，没有复杂的概念和繁琐的操作，标准的 Flink 程序 ( 安装 Flink 官方要去的结构和规范 ) 和用 <code>streamx</code> 开发的项目都做了很好的支持，下面我们使用 <code>streamx-quickstart</code> 来快速开启 streamx-console 之旅</p>
 <p><code>streamx-quickstart</code> 是 StreamX 开发 Flink 的上手示例程序，具体请查阅</p>
@@ -1599,10 +1599,10 @@ streamx-console-service-${version}
     </item>
     <item>
       <title>Flink Kubernetes Integration</title>
-      <link>http://www.streamxhub.com/doc/flink-k8s/1-deployment/</link>
-      <guid>http://www.streamxhub.com/doc/flink-k8s/1-deployment/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Flink Kubernetes Integration</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/1-deployment/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/1-deployment/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Flink Kubernetes Integration</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>StreamX Flink Kubernetes Integration is based on <a href="https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/" target="_blank" rel="noopener noreferrer">Flink Native Kubernetes</a>, and supports the following Flink-Native-K8s runtime mode:</p>
 <ul>
 <li>Native-Kubernetes Application</li>
@@ -1713,10 +1713,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>K8s PVC Usage</title>
-      <link>http://www.streamxhub.com/doc/flink-k8s/2-k8s-pvc-integration/</link>
-      <guid>http://www.streamxhub.com/doc/flink-k8s/2-k8s-pvc-integration/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">K8s PVC Usage</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/2-k8s-pvc-integration/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/2-k8s-pvc-integration/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">K8s PVC Usage</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="k8s-pvc-resource-usage"> K8s PVC Resource Usage</h2>
 <p>The current version of StreamX Flink-K8s task has support for PVC resources based on Flink k8s-pod-template. Streamx supports editing <code>pod-template</code>, <code>jm-pod-template</code>, <code>tm-pod-template</code> configurations directly on the UI page.</p>
 <br/>
@@ -1761,10 +1761,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>Hadoop Resource Integration</title>
-      <link>http://www.streamxhub.com/doc/flink-k8s/3-hadoop-resource-integration/</link>
-      <guid>http://www.streamxhub.com/doc/flink-k8s/3-hadoop-resource-integration/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Hadoop Resource Integration</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/3-hadoop-resource-integration/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/3-hadoop-resource-integration/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Hadoop Resource Integration</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="hadoop-resource-integration"> Hadoop Resource Integration</h2>
 <p>To use Hadoop resources under StreamX Flink-K8s runtime, such as checkpoint mounting HDFS, accessing Hive, etc.  Users need to build the relevant Flink Base Docker Image by themselves. The Image needs to contain the following content：</p>
 <ul>
@@ -1778,17 +1778,17 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>Flink SQL</title>
-      <link>http://www.streamxhub.com/doc/flinksql/flinksql/</link>
-      <guid>http://www.streamxhub.com/doc/flinksql/flinksql/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Flink SQL</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/flinksql/flinksql/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/flinksql/flinksql/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Flink SQL</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
     </item>
     <item>
       <title>框架介绍</title>
-      <link>http://www.streamxhub.com/doc/guide/intro/</link>
-      <guid>http://www.streamxhub.com/doc/guide/intro/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">框架介绍</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/guide/intro/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/guide/intro/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">框架介绍</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="streamx"> StreamX</h1>
 <p>let flink|spark easy</p>
 <blockquote>
@@ -1866,10 +1866,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>快速开始</title>
-      <link>http://www.streamxhub.com/doc/guide/quickstart/</link>
-      <guid>http://www.streamxhub.com/doc/guide/quickstart/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">快速开始</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/guide/quickstart/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/guide/quickstart/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">快速开始</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>千里之行始于足下,从这一刻开始即将进入<code>StreamX</code> 开发的奇妙旅程,准备好了吗? 让我们开始吧</p>
 <h2 id="起步"> 起步</h2>
 <p>我们要做的第一件事就是将项目clone到本地,执行编译,在编译前请确保以下事项</p>
@@ -2177,10 +2177,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>项目配置</title>
-      <link>http://www.streamxhub.com/doc/model/conf/</link>
-      <guid>http://www.streamxhub.com/doc/model/conf/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">项目配置</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/model/conf/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/model/conf/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">项目配置</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>配置在<code>StreamX</code>中是非常重要的概念,先说说为什么需要配置</p>
 <h2 id="为什么需要配置"> 为什么需要配置</h2>
 <p>开发<code>DataStream</code>程序,大体流程都可以抽象为以下4步</p>
@@ -2540,10 +2540,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>编程模型</title>
-      <link>http://www.streamxhub.com/doc/model/model/</link>
-      <guid>http://www.streamxhub.com/doc/model/model/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">编程模型</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/model/model/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/model/model/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">编程模型</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>任何框架都有一些要遵循的规则和约定,我们只有遵循并掌握了这些规则,才能更加游刃有余的使用,使其发挥事半功倍的效果, 我们开发<code>flink</code>作业,其实就是利用<code>flink</code>提供的api,按照<code>flink</code>要求的开发方式,写一个可以执行的(必须有<code>main()</code>函数)的程序,在程序里接入各种<code>Connector</code>经过一系列的<code>算子</code>操作,最终将数据通过<code>Connector</code>sink到目标存储,
 我们把这种按照某种约定的规则去逐步编程的方式称之为<code>编程模型</code>, 这一章节我们就来聊聊<code>StreamX</code>的<code>编程模型</code>以及开发注意事项</p>
 <p>我们从这几个方面开始入手</p>
@@ -3047,62 +3047,62 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>开发实例</title>
-      <link>http://www.streamxhub.com/doc/usecase/usecase/</link>
-      <guid>http://www.streamxhub.com/doc/usecase/usecase/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">开发实例</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/doc/usecase/usecase/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/doc/usecase/usecase/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">开发实例</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>文档中心</title>
-      <link>http://www.streamxhub.com/zh/doc/</link>
-      <guid>http://www.streamxhub.com/zh/doc/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">文档中心</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">文档中心</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
     </item>
     <item>
       <title>高级扩展</title>
-      <link>http://www.streamxhub.com/zh/doc/advanced/advanced/</link>
-      <guid>http://www.streamxhub.com/zh/doc/advanced/advanced/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">高级扩展</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/advanced/advanced/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/advanced/advanced/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">高级扩展</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Clickhouse Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/clickhouse/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/clickhouse/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Clickhouse Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/clickhouse/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/clickhouse/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Clickhouse Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Elasticsearch Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/es/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/es/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Elasticsearch Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/es/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/es/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Elasticsearch Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Http Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/http/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/http/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Http Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/http/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/http/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Http Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Jdbc Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/jdbc/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/jdbc/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Jdbc Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/jdbc/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/jdbc/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Jdbc Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>Flink 官方 提供了<a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/connectors/jdbc.html" target="_blank" rel="noopener noreferrer">JDBC</a>的连接器,用于从 JDBC 中读取或者向其中写入数据,可提供 <mark>AT_LEAST_ONCE</mark> (至少一次)的处理语义</p>
 <p><code>StreamX</code>中基于两阶段提交实现了 <mark>EXACTLY_ONCE</mark> (精确一次)语义的<code>JdbcSink</code>,并且采用<a href="https://github.com/brettwooldridge/HikariCP" target="_blank" rel="noopener noreferrer"><code>光 HikariCP</code></a>为连接池,让数据的读取和写入更简单更准确</p>
 <h2 id="jdbc-信息配置"> Jdbc 信息配置</h2>
@@ -3423,10 +3423,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>Apache Kafka Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/kafka/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/kafka/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Apache Kafka Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/kafka/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/kafka/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Apache Kafka Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/zh/dev/connectors/kafka.html" target="_blank" rel="noopener noreferrer">Flink 官方</a>提供了<a href="http://kafka.apache.org" target="_blank" rel="noopener noreferrer">Apache Kafka</a>的连接器,用于从 Kafka topic 中读取或者向其中写入数据,可提供 <mark>精确一次</mark> 的处理语义</p>
 <p><code>StreamX</code>中<code>KafkaSource</code>和<code>KafkaSink</code>基于官网的<code>kafka connector</code>进一步封装,屏蔽很多细节,简化开发步骤,让数据的读取和写入更简单</p>
 <h2 id="依赖"> 依赖</h2>
@@ -4230,28 +4230,28 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     </item>
     <item>
       <title>MongoDb Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/mongo/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/mongo/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">MongoDb Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/mongo/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/mongo/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">MongoDb Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>Redis Connector</title>
-      <link>http://www.streamxhub.com/zh/doc/connector/redis/</link>
-      <guid>http://www.streamxhub.com/zh/doc/connector/redis/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Redis Connector</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/connector/redis/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/connector/redis/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Redis Connector</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
     <item>
       <title>安装部署</title>
-      <link>http://www.streamxhub.com/zh/doc/console/deploy/</link>
-      <guid>http://www.streamxhub.com/zh/doc/console/deploy/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">安装部署</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/console/deploy/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/console/deploy/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">安装部署</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>streamx-console 是一个综合实时数据平台，低代码 ( Low Code ) ,Flink Sql 平台，可以较好的管理 Flink 任务，集成了项目编译、发布、参数配置、启动、savepoint,火焰图 ( flame graph ) ,Flink SQL,监控等诸多功能于一体，大大简化了 Flink 任务的日常操作和维护，融合了诸多最佳实践。其最终目标是打造成一个实时数仓，流批一体的一站式大数据解决方案</p>
 </blockquote>
@@ -4385,10 +4385,10 @@ streamx-console-service-1.0.0
     </item>
     <item>
       <title>开发环境</title>
-      <link>http://www.streamxhub.com/zh/doc/console/deployment/</link>
-      <guid>http://www.streamxhub.com/zh/doc/console/deployment/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">开发环境</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/console/deployment/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/console/deployment/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">开发环境</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p><span style="background-color:#ffffff; color:#333333">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="https://github.com/streamxhub/streamx" target="_blank">StreamX</a><span style="background-color:#ffffff; color:#333333">&nbsp;</span>遵循 Apache-2.0 开源协议，将会是个长期更新的活跃项目，欢迎大家提交<a href="https://github.com/streamxhub/streamx/pulls">PR</a> 或 <a href="https://github.com/streamxhub/streamx/issues/new/choose">Issue</a>。喜欢请给个 <a href="https://github.com/streamxhub/streamx/stargazers">Star</a>。您的支持是我们最大的动力， 该项目从开源以来受到不少朋友的关注和认可，表示感谢，已陆续有来自金融，数据分析，车联网，智能广告，地产等公司的朋友在使用或二开，也不乏来自一线大厂的朋友在研究使用，欢迎更多的开发者加入一块贡献，不只是代码的贡献，还寻求使用文档，体验报告，问答等方面的贡献</p>
 <p>StreamX 总体组件栈架构如下， 由 streamx-core 和 streamx-console 两个大的部分组成，其中 streamx-core 是开发时框架，这里不做讲解，本章节具体讲讲如何在本地搭建 streamx-console 流批一体平台的开发环境，为了方便讲解，本文中所说的 <code>streamx-console</code> 均指 <code>streamx-console 平台</code></p>
 <center>
@@ -4538,10 +4538,10 @@ streamx-console-service-${version}
     </item>
     <item>
       <title>快速开始</title>
-      <link>http://www.streamxhub.com/zh/doc/console/quickstart/</link>
-      <guid>http://www.streamxhub.com/zh/doc/console/quickstart/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">快速开始</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/console/quickstart/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/console/quickstart/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">快速开始</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="如何使用"> 如何使用</h2>
 <p>streamx-console 定位是流批一体的大数据平台，一站式解决方案，使用起来非常简单，没有复杂的概念和繁琐的操作，标准的 Flink 程序 ( 安装 Flink 官方要去的结构和规范 ) 和用 <code>streamx</code> 开发的项目都做了很好的支持，下面我们使用 <code>streamx-quickstart</code> 来快速开启 streamx-console 之旅</p>
 <p><code>streamx-quickstart</code> 是 StreamX 开发 Flink 的上手示例程序，具体请查阅</p>
@@ -4642,10 +4642,10 @@ streamx-console-service-${version}
     </item>
     <item>
       <title>Flink K8s 集成支持</title>
-      <link>http://www.streamxhub.com/zh/doc/flink-k8s/1-deployment/</link>
-      <guid>http://www.streamxhub.com/zh/doc/flink-k8s/1-deployment/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Flink K8s 集成支持</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/1-deployment/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/1-deployment/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Flink K8s 集成支持</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>StreamX Flink Kubernetes 基于 <a href="https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/" target="_blank" rel="noopener noreferrer">Flink Native Kubernetes</a> 实现，支持以下 Flink 运行模式：</p>
 <ul>
 <li>Native-Kubernetes Application</li>
@@ -4756,10 +4756,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>K8s PVC 资源使用</title>
-      <link>http://www.streamxhub.com/zh/doc/flink-k8s/2-k8s-pvc-integration/</link>
-      <guid>http://www.streamxhub.com/zh/doc/flink-k8s/2-k8s-pvc-integration/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">K8s PVC 资源使用</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/2-k8s-pvc-integration/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/2-k8s-pvc-integration/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">K8s PVC 资源使用</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="k8s-pvc-资源使用说明"> K8s PVC 资源使用说明</h2>
 <p>当前版本 StreamX Flink-K8s 任务对 PVC 资源（挂载 checkpoint/savepoint/logs 等文件资源）的支持基于 pod-template。</p>
 <p>Native-Kubernetes Session 由创建 Session Cluster 时控制，这里不再赘述。Native-Kubernetes Application 支持在 StreamX 页面上直接编写 <code>pod-template</code>，<code>jm-pod-template</code>，<code>tm-pod-template</code> 配置。</p>
@@ -4807,10 +4807,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>Hadoop 资源集成</title>
-      <link>http://www.streamxhub.com/zh/doc/flink-k8s/3-hadoop-resource-integration/</link>
-      <guid>http://www.streamxhub.com/zh/doc/flink-k8s/3-hadoop-resource-integration/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Hadoop 资源集成</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/3-hadoop-resource-integration/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/3-hadoop-resource-integration/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Hadoop 资源集成</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="在-k8s-上使用-hadoop-资源"> 在 K8s 上使用 Hadoop 资源</h2>
 <p>在 StreamX Flink-K8s runtime 下使用 Hadoop 资源，如 checkpoint 挂载 HDFS、读写 Hive 等，目前用户需要自行构建相关 Flink Base   Docker Image，Image 中需要包含以下内容：</p>
 <ul>
@@ -4824,17 +4824,17 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>Flink SQL</title>
-      <link>http://www.streamxhub.com/zh/doc/flinksql/flinksql/</link>
-      <guid>http://www.streamxhub.com/zh/doc/flinksql/flinksql/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">Flink SQL</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/flinksql/flinksql/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/flinksql/flinksql/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">Flink SQL</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
     </item>
     <item>
       <title>框架介绍</title>
-      <link>http://www.streamxhub.com/zh/doc/guide/intro/</link>
-      <guid>http://www.streamxhub.com/zh/doc/guide/intro/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">框架介绍</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/guide/intro/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/guide/intro/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">框架介绍</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="streamx"> StreamX</h1>
 <p>let flink|spark easy</p>
 <blockquote>
@@ -4912,10 +4912,10 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     </item>
     <item>
       <title>快速开始</title>
-      <link>http://www.streamxhub.com/zh/doc/guide/quickstart/</link>
-      <guid>http://www.streamxhub.com/zh/doc/guide/quickstart/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">快速开始</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/guide/quickstart/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/guide/quickstart/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">快速开始</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>千里之行始于足下,从这一刻开始即将进入<code>StreamX</code> 开发的奇妙旅程,准备好了吗? 让我们开始吧</p>
 <h2 id="起步"> 起步</h2>
 <p>我们要做的第一件事就是将项目clone到本地,执行编译,在编译前请确保以下事项</p>
@@ -5223,10 +5223,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>项目配置</title>
-      <link>http://www.streamxhub.com/zh/doc/model/conf/</link>
-      <guid>http://www.streamxhub.com/zh/doc/model/conf/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">项目配置</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/model/conf/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/model/conf/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">项目配置</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>配置在<code>StreamX</code>中是非常重要的概念,先说说为什么需要配置</p>
 <h2 id="为什么需要配置"> 为什么需要配置</h2>
 <p>开发<code>DataStream</code>程序,大体流程都可以抽象为以下4步</p>
@@ -5586,10 +5586,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>编程模型</title>
-      <link>http://www.streamxhub.com/zh/doc/model/model/</link>
-      <guid>http://www.streamxhub.com/zh/doc/model/model/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">编程模型</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/model/model/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/model/model/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">编程模型</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<p>任何框架都有一些要遵循的规则和约定,我们只有遵循并掌握了这些规则,才能更加游刃有余的使用,使其发挥事半功倍的效果, 我们开发<code>flink</code>作业,其实就是利用<code>flink</code>提供的api,按照<code>flink</code>要求的开发方式,写一个可以执行的(必须有<code>main()</code>函数)的程序,在程序里接入各种<code>Connector</code>经过一系列的<code>算子</code>操作,最终将数据通过<code>Connector</code>sink到目标存储,
 我们把这种按照某种约定的规则去逐步编程的方式称之为<code>编程模型</code>, 这一章节我们就来聊聊<code>StreamX</code>的<code>编程模型</code>以及开发注意事项</p>
 <p>我们从这几个方面开始入手</p>
@@ -6093,10 +6093,10 @@ Streamx-flink-quickstart-1.0.0
     </item>
     <item>
       <title>开发实例</title>
-      <link>http://www.streamxhub.com/zh/doc/usecase/usecase/</link>
-      <guid>http://www.streamxhub.com/zh/doc/usecase/usecase/</guid>
-      <source url="http://www.streamxhub.com/rss.xml">开发实例</source>
-      <pubDate>Mon, 20 Dec 2021 03:56:54 GMT</pubDate>
+      <link>http://www.streamxhub.com/streamx-docs/zh/doc/usecase/usecase/</link>
+      <guid>http://www.streamxhub.com/streamx-docs/zh/doc/usecase/usecase/</guid>
+      <source url="http://www.streamxhub.com/streamx-docs/rss.xml">开发实例</source>
+      <pubDate>Mon, 20 Dec 2021 09:55:57 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content:encoded>
     </item>
