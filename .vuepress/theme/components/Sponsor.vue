@@ -24,8 +24,8 @@
                 每笔捐助我们都会显示出来,供项目的开发社区的建设使用, 同时也欢迎企业捐助, 我们会在新版发布时鸣谢, 感谢支持!
               </div>
               <div class="col-12" style="margin-top: 100px;text-align: center">
-                <img src="./assets/img/wechatPay.png" width="200px">
-                <img src="./assets/img/aliPay.png" width="200px" style="margin-left: 20px;">
+                <img src="/assets/img/wechatPay.png" width="200px">
+                <img src="/assets/img/aliPay.png" width="200px" style="margin-left: 20px;">
               </div>
             </div>
           </div>

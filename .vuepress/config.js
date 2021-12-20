@@ -11,9 +11,9 @@ module.exports = config({
             lang: "简体中文"
         }
     },
-    // base: '/streamx-docs/',
+    base: '/streamx-docs/',
     themeConfig: {
-        logo: "./assets/logo/streamx.png",
+        logo: "/assets/logo/streamx.png",
         author: "benjobs",
         hostname: 'http://www.streamxhub.com',
         darkmode: 'disable',

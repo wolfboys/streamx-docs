@@ -981,7 +981,7 @@ img {
 .hero-chattogram.welcome_area::after {
     position: absolute;
     content: "";
-    background-image: url("./assets/img/core-img/half-circle.png");
+    background-image: url("/assets/img/core-img/half-circle.png");
     background-repeat: repeat;
     width: 100%;
     height: 17px;
@@ -1228,7 +1228,7 @@ img {
     position: absolute;
     width: 180px;
     height: 150px;
-    background-image: url("./assets/img/core-img/dot2.png");
+    background-image: url("/assets/img/core-img/dot2.png");
     content: "";
     right: 0;
     bottom: -55px;
@@ -1823,7 +1823,7 @@ img {
 .single_price_plan::after {
     position: absolute;
     content: "";
-    background-image: url("./assets/img/core-img/half-circle.png");
+    background-image: url("/assets/img/core-img/half-circle.png");
     background-repeat: repeat;
     width: 100%;
     height: 17px;
