@@ -52,7 +52,7 @@
                 </a>
                 <a class="btn streamx-btn btn-purple mt-30 ml-2" href="https://gitee.com/streamxhub/streamx" target="_blank" data-wow-delay="0.4s"
                    style="margin-left: 15px;">
-                  <img src="/assets/icon/gitee.png" class="icon-gitee" >&nbsp;Gitee
+                  <img src="/streamx-docs/assets/icon/gitee.png" class="icon-gitee" >&nbsp;Gitee
                 </a>
                 <a class="btn streamx-btn btn-green mt-30 ml-2" href="../../../zh/doc/guide/intro/" data-wow-delay="0.4s"
                    style="margin-left: 15px;">
@@ -75,7 +75,7 @@
             </div>
             <div class="col-12 col-md-6">
               <div class="welcome_area_thumb text-center" data-wow-delay="0.2s">
-                <a href="https://gitee.com/gvp" target="_blank"><img src="/assets/img/bg-img/gvp2021.png" alt=""></a>
+                <a href="https://gitee.com/gvp" target="_blank"><img src="/streamx-docs/assets/img/bg-img/gvp2021.png" alt=""></a>
                 <a class="video_btn video-btn" style="display: none" href="http://assets.streamxhub.com/streamx-video.mp4" data-wow-delay="0.5s">
                   <i class="lni-play"></i>
                   <span class="video-sonar"></span>
@@ -135,12 +135,12 @@
           <div class="row h-100 justify-content-between align-items-center">
             <div class="col-12 col-md-6">
               <div class="code-container" style="height: 350px;">
-                <img src="/assets/img/core-img/code.png"  class="shadow" width="90%">
+                <img src="/streamx-docs/assets/img/core-img/code.png"  class="shadow" width="90%">
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="welcome_area_thumb text-center" data-wow-delay="0.2s">
-                <img src="/assets/img/core-img/hero-image.svg" alt="">
+                <img src="/streamx-docs/assets/img/core-img/hero-image.svg" alt="">
               </div>
             </div>
           </div>
@@ -152,9 +152,9 @@
     <MyTransition :delay="0.04">
       <section class="using_benefits_area section_padding_100" id="benefits">
         <!-- Benefit Top Background-->
-        <div class="benefit-top-thumbnail"><img src="/assets/img/core-img/video-bottom.png" alt=""></div>
+        <div class="benefit-top-thumbnail"><img src="/streamx-docs/assets/img/core-img/video-bottom.png" alt=""></div>
         <!-- Benefit Top Background-->
-        <div class="benefit-bottom-thumbnail"><img src="/assets/img/core-img/benefit-bottom.png" alt=""></div>
+        <div class="benefit-bottom-thumbnail"><img src="/streamx-docs/assets/img/core-img/benefit-bottom.png" alt=""></div>
         <div class="container">
 
           <div class="row justify-content-center">
@@ -230,7 +230,7 @@
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
               <div class="single_price_plan active wow fadeInUp" data-wow-delay="0.2s">
                 <!-- Side Shape-->
-                <div class="side-shape"><img src="/assets/img/core-img/popular.png" alt=""></div>
+                <div class="side-shape"><img src="/streamx-docs/assets/img/core-img/popular.png" alt=""></div>
                 <div class="title"><span>大力推荐</span>
                   <h3>专业版</h3>
                   <p>面向企业</p>
