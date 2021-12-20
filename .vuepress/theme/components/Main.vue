@@ -41,7 +41,7 @@
               <div class="welcome_text_area">
                 <h2 class="wow fadeInUp" data-wow-delay="0.2s">
                   <span>StreamX ──</span><br>
-                  <span>A magical framework<br>make flink&spark easier!</span>
+                  <span>A magical framework<br>make Flink & Spark easier!</span>
                 </h2>
                 <h5 class="wow fadeInUp" data-wow-delay="0.3s">
                   The original intention of StreamX is to make the development of Flink easier. provide a one-stop big data solution integrating stream processing, batch processing, data warehouse and data laker.
@@ -54,7 +54,7 @@
                    style="margin-left: 15px;">
                   <img src="/streamx-docs/assets/icon/gitee.png" class="icon-gitee" >&nbsp;Gitee
                 </a>
-                <a class="btn streamx-btn btn-green mt-30 ml-2" href="../../../zh/doc/guide/intro/" data-wow-delay="0.4s"
+                <a class="btn streamx-btn btn-green mt-30 ml-2" href="../../../streamx-docs/doc/guide/intro/" data-wow-delay="0.4s"
                    style="margin-left: 15px;">
                   <i class="lni-play"></i>&nbsp;Start
                 </a>
