@@ -1,0 +1,68 @@
+@require './code/index'
+@require './code/light'
+@require './code/dark'
+
+.theme-container:not(.has-navbar)
+  {$contentClass}:not(.custom) > h1, h2, h3, h4, h5, h6
+    margin-top 1.5rem
+    padding-top 0
+
+// narrow mobile
+@media (max-width $MQMobileNarrow)
+  h1
+    font-size 1.7rem
+
+  h2
+    font-size 1.5rem
+
+  h3
+    font-size 1.3rem
+
+  {$contentClass}
+    div[class*='language-']
+      margin 0.85rem -1.5rem
+      border-radius 0
+
+.iconfont
+  font-weight normal
+
+[aria-label][data-balloon-pos]
+  cursor help
+
+body
+  height 100%
+  overflow-x auto
+  overflow-y auto
+  border none
+
+  ::-webkit-scrollbar
+    width 3px
+    height 3px
+
+  ::-webkit-scrollbar-track-piece
+    background rgba(0, 0, 0, 0.1)
+    -webkit-border-radius 3px
+
+  ::-webkit-scrollbar-thumb:vertical
+    height 3px
+    background var(--accent-color-a65)
+    -webkit-border-radius 3px
+
+  ::-webkit-scrollbar-thumb:horizontal
+    width 3px
+    background var(--accent-color-a65)
+    -webkit-border-radius 3px
+
+
+.particles
+  position: absolute
+  z-index: 1
+  width: 100%
+
+#particles-js
+  background-size: cover
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%

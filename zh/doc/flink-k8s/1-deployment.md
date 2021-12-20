@@ -3,7 +3,7 @@ title: 'Flink K8s 集成支持'
 sidebar: true
 author: 'Al-assad'
 original: true
-time: 2021/09/27
+date: 2021/09/27
 ---
 
 StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/) 实现，支持以下 Flink 运行模式：
@@ -54,7 +54,7 @@ kubectl create clusterrolebinding flink-role-binding-default --clusterrole=edit 
 
 在 StreamX Setting 页面，配置目标 Kubernetes 集群所使用的 Docker 容器服务的连接信息。
 
-![image-20210927182540478](../../../asserts/docker_register_setting.png)
+![image-20210927182540478](http://assets.streamxhub.com/docker_register_setting.png)
 
 在远程 Docker 容器服务创建一个名为 `streamx` 的 Namespace ，为 StreamX 自动构建的 Flink image 推送空间，请确保使用的 Docker Register User 具有该  Namespace 的 `pull`/`push` 权限。
 
@@ -77,11 +77,11 @@ docker pull <your_register_addr>/streamx/busybox
 
 ### Application 任务发布
 
-![image-20210927203759713](../../../asserts/k8s_application_submit.png)
+![image-20210927203759713](http://assets.streamxhub.com/k8s_application_submit.png)
 
 其中需要说明的参数如下：
 
-* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - offical/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
+* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - office/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
 * **Rest-Service Exposed Type**：对应 Flink 原生 [kubernetes.rest-service.exposed.type](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/config/#kubernetes) 配置，各个候选值说明：
   * `ClusterIP`：需要 StreamX 可直接访问 K8s 内部网络；
   * `LoadBalancer`：需要 K8s 提前创建 LoadBalancer 资源，且 Flink Namespace 具备自动绑定权限，同时 StreamX 可以访问该 LoadBalancer 网关；
@@ -90,7 +90,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 任务启动后，支持在该任务的 Detail 页直接访问对应的 Flink Web UI 页面：
 
-![image-20210927210034861](../../../asserts/k8s_app_detail.png)
+![image-20210927210034861](http://assets.streamxhub.com/k8s_app_detail.png)
 
 ### Session 任务发布
 
