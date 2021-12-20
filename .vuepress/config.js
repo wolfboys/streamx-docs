@@ -13,7 +13,7 @@ module.exports = config({
     },
     base: '/streamx-docs/',
     themeConfig: {
-        logo: "/assets/logo/streamx.png",
+        logo: "./assets/logo/streamx.png",
         author: "benjobs",
         hostname: 'http://www.streamxhub.com',
         darkmode: 'disable',
