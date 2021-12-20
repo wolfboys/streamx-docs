@@ -1,27 +1,63 @@
----
-main: true
-features:
-- title: 源码可控
-  icon: lni-code  
-  details: 高质量的代码,重要步骤注释清晰,后端代码通过阿里代码规范检查,前端代码全部经过eslint语法的严格检验,保证可读性和健壮性
+<div align="center">
+    <br/>
+    <h1>
+        <a href="http://www.streamxhub.com" target="_blank" rel="noopener noreferrer">
+        <img width="500" src="http://assets.streamxhub.com/streamx-log2.png" alt="StreamX logo">
+        </a>
+    </h1>
+    <strong>Make Flink|Spark easier!!!</strong>
+</div>
 
-- title: 简单易用
-  icon: lni-layers
-  details: StreamX 的初衷就是让Flink开发更简单,提供了一系列快捷api和Connector,开箱即用,让开发者更方便快速的开发
+<br/>
 
-- title: 文档详尽
-  icon: lni-library
-  details: 从概念到上手再到进阶高级,每个使用细节和注意事项都详细罗列,文档通俗易懂拒绝复杂概念,并辅助大量代码示例,让开发者一目了然
+<p align="center">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0.html"><img src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg"></a>
+  <img src="https://tokei.rs/b1/github/streamxhub/streamx">
+  <img src="https://img.shields.io/github/v/release/streamxhub/streamx.svg">
+  <img src="https://img.shields.io/github/stars/streamxhub/streamx">
+  <img src="https://img.shields.io/github/forks/streamxhub/streamx">
+  <img src="https://img.shields.io/github/downloads/streamxhub/streamx/total">
+  <img src="https://img.shields.io/github/languages/count/streamxhub/streamx">
+</p>
 
-- title: 健壮稳定
-  icon: lni-magnet
-  details: 由Apache Flink contributor 打造,每个API,每处设计都经过精心打磨,测试用例齐全,经历线上项目验证,保证稳定可靠
+<div align="center">
 
-- title: 流批一体
-  icon: lni-shuffle
-  details: StreamX以Flink为底层框架,在Flink SQL中融合了DataStream api,在线Flink SQL开发,独创的依赖管理,让流批一体落地更加简单
+StreamX Document
 
-- title: 一站式解决方案
-  icon: lni-display-alt
-  details: Streamx-console集成了项目编译,发布,参数配置,任务监控,flinkSQL等众多功能于一身,是一个一站式综合数据平台
----
+</div>
+
+English | [中文](README_CN.md)
+
+# StreamX
+
+Make Flink|Spark easier
+
+> A magical framework that makes Flink development easier
+
+
+## 🍼 Feedback
+
+You can quickly submit an issue. Before submitting, please check the problem and try to use the following contact information! Maybe your
+question has already been asked by others, or it has already been answered. Thank you!
+
+You can contact us or ask questions via:
+
+- [New an issue](https://github.com/streamxhub/streamx/issues/new)
+- [Join us](#-Join-us)
+
+## 💬 Join us
+
+[StreamX]((http://www.streamxhub.com/#/)) enters the high-speed development stage, we need your contribution.
+
+<div align="center">
+
+![Stargazers over time](https://starchart.cc/streamxhub/streamx.svg)
+
+</div>
+
+<div align="center">
+    <img src="http://assets.streamxhub.com/joinus0714.png" alt="Join the Group" width="200"><br>
+    <span>join us</span>
+</div>
+
+
