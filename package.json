@@ -6,7 +6,9 @@
   "scripts": {
     "docs:build": "vuepress build ./",
     "dev:clean-dev": "vuepress dev ./ --no-cache",
-    "docs:dev": "vuepress dev ./"
+    "docs:dev": "vuepress dev ./",
+    "start": "vuepress dev",
+    "build": "vuepress build"
   },
   "devDependencies": {
     "swiper": "^6.5.2",
