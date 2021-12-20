@@ -7,7 +7,7 @@
         <div class="main-content" style="margin-top: 220px">
           <div class="container">
             <div class="row justify-content-between align-items-center">
-              <div class="col-12 col-md-5"><img src="/assets/img/bg-img/download.jpg" style="width:600px;height: 450px" alt=""></div>
+              <div class="col-12 col-md-5"><img src="/streamx-docs/assets/img/bg-img/download.jpg" style="width:600px;height: 450px" alt=""></div>
               <div class="col-12 col-md-6">
                 <h2>快速开始你的下载</h2>
                 <div style="margin-top: 20px">

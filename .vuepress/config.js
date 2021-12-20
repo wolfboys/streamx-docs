@@ -1,7 +1,10 @@
 const {config} = require("./theme");
 module.exports = config({
     title: "StreamX",
-    description: 'StreamX 是一个 Apache Flink&Spark 极速开发框架,项目的初衷是 ——让 Flink&Spark 更简单。其定位是 Flink&Spark 开发脚手架 + 流批一体大数据平台,一站式大数据平台,Flink大数据平台,Flink可视化数据平台,LowCode平台,流批一体,一站式,Flink,Spark,FlinkSQL,Application,sqlSubmit,SpringBoot,Vue,flink-connectors',
+    description: 'StreamX 是一个 Apache Flink & Spark 极速开发框架,项目的初衷是 ——让 Flink & Spark 更简单。其定位是 Flink & Spark 开发脚手架 + 流批一体大数据平台,一站式大数据平台,Flink 大数据平台,Flink 可视化数据平台, LowCode 平台, 流批一体, 一站式, Flink, Spark, FlinkSQL, Application, sqlSubmit, SpringBoot, Vue, flink-connectors',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     dest: "./dist",
     locales: {
         "/": {
@@ -11,6 +14,7 @@ module.exports = config({
             lang: "简体中文"
         }
     },
+    base: '/streamx-docs/',
     themeConfig: {
         logo: "/assets/logo/streamx.png",
         author: "benjobs",

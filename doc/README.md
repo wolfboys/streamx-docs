@@ -4,7 +4,7 @@ icon: home
 heroImage: /assets/logo/streamx.png
 heroText: StreamX
 title: 'Document'
-tagline: ── make Flink|Spark easier ✨
+tagline: ── Make Flink | Spark Easier ✨
 action:
 - text: Quick Start
   link: /doc/guide/intro
