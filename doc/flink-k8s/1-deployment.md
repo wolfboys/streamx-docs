@@ -54,7 +54,7 @@ kubectl create clusterrolebinding flink-role-binding-default --clusterrole=edit 
 
 You need to configure the connection information for the remote Docker register service on the Settings page of StreamX.
 
-![image-20210927182540478](../../asserts/docker_register_setting.png)
+![image-20210927182540478](http://assets.streamxhub.com/docker_register_setting.png)
 
 You need to create a namespace named `streamx` in remote docker register repository. The docker image automatically built by StreamX will be pushed to this namespace, so make sure that the *Docker Register User* has `pull` and `push` permissions for this namespace.
 
@@ -77,7 +77,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 ### Flink-Application Job
 
-![image-20210927203759713](../../asserts/k8s_application_submit.png)
+![image-20210927203759713](http://assets.streamxhub.com/k8s_application_submit.png)
 
 The configuration to be specified are the following:
 
@@ -90,7 +90,7 @@ The configuration to be specified are the following:
 
 When a Flink job is started, the Flink Web UI page can be accessed directly from the Detail page of StreamX:
 
-![image-20210927210034861](../../asserts/k8s_app_detail.png)
+![image-20210927210034861](http://assets.streamxhub.com/k8s_app_detail.png)
 
 ### Flink-Session Job
 

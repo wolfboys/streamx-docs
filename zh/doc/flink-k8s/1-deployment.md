@@ -3,7 +3,7 @@ title: 'Flink K8s 集成支持'
 sidebar: true
 author: 'Al-assad'
 original: true
-time: 2021/09/27
+date: 2021/09/27
 ---
 
 StreamX Flink Kubernetes 基于 [Flink Native Kubernetes](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/) 实现，支持以下 Flink 运行模式：
@@ -54,7 +54,7 @@ kubectl create clusterrolebinding flink-role-binding-default --clusterrole=edit 
 
 在 StreamX Setting 页面，配置目标 Kubernetes 集群所使用的 Docker 容器服务的连接信息。
 
-![image-20210927182540478](../../../asserts/docker_register_setting.png)
+![image-20210927182540478](http://assets.streamxhub.com/docker_register_setting.png)
 
 在远程 Docker 容器服务创建一个名为 `streamx` 的 Namespace ，为 StreamX 自动构建的 Flink image 推送空间，请确保使用的 Docker Register User 具有该  Namespace 的 `pull`/`push` 权限。
 
@@ -77,7 +77,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 ### Application 任务发布
 
-![image-20210927203759713](../../../asserts/k8s_application_submit.png)
+![image-20210927203759713](http://assets.streamxhub.com/k8s_application_submit.png)
 
 其中需要说明的参数如下：
 
@@ -90,7 +90,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 任务启动后，支持在该任务的 Detail 页直接访问对应的 Flink Web UI 页面：
 
-![image-20210927210034861](../../../asserts/k8s_app_detail.png)
+![image-20210927210034861](http://assets.streamxhub.com/k8s_app_detail.png)
 
 ### Session 任务发布
 

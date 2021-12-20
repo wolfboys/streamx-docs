@@ -13,7 +13,7 @@ streamx-console 定位是流批一体的大数据平台，一站式解决方案�
 `streamx-quickstart` 是 StreamX 开发 Flink 的上手示例程序，具体请查阅
 
 - Github: [https://github.com/streamxhub/streamx-quickstart.git](https://github.com/streamxhub/streamx-quickstart.git)
-- Gitee: [https://gitee.com/benjobs/streamx-quickstart.git](https://gitee.com/benjobs/streamx-quickstart.git)
+- Gitee: [https://gitee.com/streamxhub/streamx-quickstart.git](https://gitee.com/streamxhub/streamx-quickstart.git)
 
 ### 部署 DataStream 任务
 

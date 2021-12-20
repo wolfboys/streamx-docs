@@ -1,0 +1,23 @@
+{
+  "name": "streamx-website",
+  "version": "1.0.0",
+  "description": "StreamX official website",
+  "license": "Apache LICENSE 2.0 Licensed",
+  "scripts": {
+    "docs:build": "vuepress build ./",
+    "dev:clean-dev": "vuepress dev ./ --no-cache",
+    "docs:dev": "vuepress dev ./",
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "swiper": "^6.5.2",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-particles": "^1.0.9",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.13.1"
+  },
+  "dependencies": {
+    "vue-clipboard2": "^0.3.1"
+  }
+}

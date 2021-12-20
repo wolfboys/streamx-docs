@@ -3,7 +3,7 @@ title: 'K8s PVC 资源使用'
 sidebar: true
 author: 'Al-assad'
 original: true
-date: 2021/09/27
+time: 2021/09/27
 ---
 
 ## K8s PVC 资源使用说明
@@ -16,7 +16,7 @@ Native-Kubernetes Session 由创建 Session Cluster 时控制，这里不再赘�
 
 以下是一个简要的示例，假设已经提前创建 `flink-checkpoint`， `flink-savepoint` 两个 PVC ：
 
-![image-20210927215912190](../../../asserts/k8s_pvc.png)
+![image-20210927215912190](http://assets.streamxhub.com/k8s_pvc.png)
 
 pod-template 配置文本如下：
 
@@ -50,7 +50,7 @@ spec:
 
 3. 在 StreamX Dependency 配置中加入 rockdb-backend 依赖（此时 StreamX 会自动解决依赖冲突）：
 
-   ![image-20210927220203314](../../../asserts/rocksdb_dependency.png)
+   ![image-20210927220203314](http://assets.streamxhub.com/rocksdb_dependency.png)
 
 <br/>
 

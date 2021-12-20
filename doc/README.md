@@ -3,7 +3,7 @@ home: true
 icon: home
 heroImage: /assets/logo/streamx.png
 heroText: StreamX
-title: '文档中心'
+title: 'Document'
 tagline: ── make Flink|Spark easier ✨
 action:
 - text: Quick Start
