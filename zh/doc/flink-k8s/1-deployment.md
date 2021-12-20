@@ -81,7 +81,7 @@ docker pull <your_register_addr>/streamx/busybox
 
 其中需要说明的参数如下：
 
-* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - office/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
+* **Flink Base Docker Image**： 基础 Flink Docker 镜像的 Tag，可以直接从 [DockerHub - offical/flink](https://hub.docker.com/_/flink) 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	`pull` 权限。
 * **Rest-Service Exposed Type**：对应 Flink 原生 [kubernetes.rest-service.exposed.type](https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/config/#kubernetes) 配置，各个候选值说明：
   * `ClusterIP`：需要 StreamX 可直接访问 K8s 内部网络；
   * `LoadBalancer`：需要 K8s 提前创建 LoadBalancer 资源，且 Flink Namespace 具备自动绑定权限，同时 StreamX 可以访问该 LoadBalancer 网关；
