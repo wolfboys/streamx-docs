@@ -6,7 +6,7 @@
   <author>
     <name>benjobs</name>
   </author>
-  <updated>2021-12-20T09:56:50.491Z</updated>
+  <updated>2021-12-21T16:36:48.550Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="http://www.streamxhub.com/streamx-docs/atom.xml"/>
   <link rel="alternate" href="http://www.streamxhub.com/streamx-docs/"/>
@@ -21,21 +21,21 @@
     <title type="html">Document</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <author>
       <name>benjobs</name>
     </author>
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">高级扩展</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/advanced/advanced/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/advanced/advanced/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -44,14 +44,14 @@
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Clickhouse Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/clickhouse/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/clickhouse/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -60,14 +60,14 @@
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Elasticsearch Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/es/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/es/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -76,14 +76,14 @@
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Http Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/http/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/http/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -92,14 +92,14 @@
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Jdbc Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/jdbc/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/jdbc/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>Flink 官方 提供了<a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/connectors/jdbc.html" target="_blank" rel="noopener noreferrer">JDBC</a>的连接器,用于从 JDBC 中读取或者向其中写入数据,可提供 <mark>AT_LEAST_ONCE</mark> (至少一次)的处理语义</p>
 <p><code>StreamX</code>中基于两阶段提交实现了 <mark>EXACTLY_ONCE</mark> (精确一次)语义的<code>JdbcSink</code>,并且采用<a href="https://github.com/brettwooldridge/HikariCP" target="_blank" rel="noopener noreferrer"><code>光 HikariCP</code></a>为连接池,让数据的读取和写入更简单更准确</p>
 <h2 id="jdbc-信息配置"> Jdbc 信息配置</h2>
@@ -423,14 +423,14 @@
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Apache Kafka Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/kafka/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/kafka/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/zh/dev/connectors/kafka.html" target="_blank" rel="noopener noreferrer">Flink 官方</a>提供了<a href="http://kafka.apache.org" target="_blank" rel="noopener noreferrer">Apache Kafka</a>的连接器,用于从 Kafka topic 中读取或者向其中写入数据,可提供 <mark>精确一次</mark> 的处理语义</p>
 <p><code>StreamX</code>中<code>KafkaSource</code>和<code>KafkaSink</code>基于官网的<code>kafka connector</code>进一步封装,屏蔽很多细节,简化开发步骤,让数据的读取和写入更简单</p>
 <h2 id="依赖"> 依赖</h2>
@@ -1236,14 +1236,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">MongoDb Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/mongo/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/mongo/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -1252,14 +1252,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Redis Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/connector/redis/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/connector/redis/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -1268,14 +1268,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">安装部署</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/console/deploy/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/console/deploy/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>streamx-console 是一个综合实时数据平台，低代码 ( Low Code ) ,Flink Sql 平台，可以较好的管理 Flink 任务，集成了项目编译、发布、参数配置、启动、savepoint,火焰图 ( flame graph ) ,Flink SQL,监控等诸多功能于一体，大大简化了 Flink 任务的日常操作和维护，融合了诸多最佳实践。其最终目标是打造成一个实时数仓，流批一体的一站式大数据解决方案</p>
 </blockquote>
@@ -1412,14 +1412,14 @@ streamx-console-service-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">开发环境</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/console/deployment/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/console/deployment/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p><span style="background-color:#ffffff; color:#333333">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="https://github.com/streamxhub/streamx" target="_blank">StreamX</a><span style="background-color:#ffffff; color:#333333">&nbsp;</span>遵循 Apache-2.0 开源协议，将会是个长期更新的活跃项目，欢迎大家提交<a href="https://github.com/streamxhub/streamx/pulls">PR</a> 或 <a href="https://github.com/streamxhub/streamx/issues/new/choose">Issue</a>。喜欢请给个 <a href="https://github.com/streamxhub/streamx/stargazers">Star</a>。您的支持是我们最大的动力， 该项目从开源以来受到不少朋友的关注和认可，表示感谢，已陆续有来自金融，数据分析，车联网，智能广告，地产等公司的朋友在使用或二开，也不乏来自一线大厂的朋友在研究使用，欢迎更多的开发者加入一块贡献，不只是代码的贡献，还寻求使用文档，体验报告，问答等方面的贡献</p>
 <p>StreamX 总体组件栈架构如下， 由 streamx-core 和 streamx-console 两个大的部分组成，其中 streamx-core 是开发时框架，这里不做讲解，本章节具体讲讲如何在本地搭建 streamx-console 流批一体平台的开发环境，为了方便讲解，本文中所说的 <code>streamx-console</code> 均指 <code>streamx-console 平台</code></p>
 <center>
@@ -1572,14 +1572,14 @@ streamx-console-service-${version}
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">快速开始</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/console/quickstart/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/console/quickstart/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="如何使用"> 如何使用</h2>
 <p>streamx-console 定位是流批一体的大数据平台，一站式解决方案，使用起来非常简单，没有复杂的概念和繁琐的操作，标准的 Flink 程序 ( 安装 Flink 官方要去的结构和规范 ) 和用 <code>streamx</code> 开发的项目都做了很好的支持，下面我们使用 <code>streamx-quickstart</code> 来快速开启 streamx-console 之旅</p>
 <p><code>streamx-quickstart</code> 是 StreamX 开发 Flink 的上手示例程序，具体请查阅</p>
@@ -1683,14 +1683,14 @@ streamx-console-service-${version}
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Flink Kubernetes Integration</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/1-deployment/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/flink-k8s/1-deployment/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>StreamX Flink Kubernetes Integration is based on <a href="https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/" target="_blank" rel="noopener noreferrer">Flink Native Kubernetes</a>, and supports the following Flink-Native-K8s runtime mode:</p>
 <ul>
 <li>Native-Kubernetes Application</li>
@@ -1720,7 +1720,7 @@ streamx-console-service-${version}
 </code></pre>
 <div><span>1</span><br></div></div><h3 id="remote-docker-register-service"> Remote Docker Register Service</h3>
 <p>You need to configure the connection information for the remote Docker register service on the Settings page of StreamX.</p>
-<p><img src="http://assets.streamxhub.com/docker_register_setting.png" alt="image-20210927182540478"></p>
+<p><img src="/streamx-docs/assets/img/core-img/docker_register_setting.png" alt="image-20210927182540478"></p>
 <p>You need to create a namespace named <code>streamx</code> in remote docker register repository. The docker image automatically built by StreamX will be pushed to this namespace, so make sure that the <em>Docker Register User</em> has <code>pull</code> and <code>push</code> permissions for this namespace.</p>
 <p>Quick test using Docker command-line tool:</p>
 <div><pre><code><span># verify access</span>
@@ -1735,7 +1735,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><br/>
 <h2 id="flink-job-submission"> Flink Job Submission</h2>
 <h3 id="flink-application-job"> Flink-Application Job</h3>
-<p><img src="http://assets.streamxhub.com/k8s_application_submit.png" alt="image-20210927203759713"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_application_submit.png" alt="image-20210927203759713"></p>
 <p>The configuration to be specified are the following:</p>
 <ul>
 <li><strong>Flink Base Docker Image</strong>： Tag of the base Flink Docker image can be obtained from <a href="https://hub.docker.com/_/flink" target="_blank" rel="noopener noreferrer">DockerHub - offical/flink</a>, and also supports the user's private image.</li>
@@ -1749,7 +1749,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 <li><strong>Kubernetes Pod Template</strong>： Flink custom k8s pod-template configuration.</li>
 </ul>
 <p>When a Flink job is started, the Flink Web UI page can be accessed directly from the Detail page of StreamX:</p>
-<p><img src="http://assets.streamxhub.com/k8s_app_detail.png" alt="image-20210927210034861"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_app_detail.png" alt="image-20210927210034861"></p>
 <h3 id="flink-session-job"> Flink-Session Job</h3>
 <p>The additional configuration of Flink-Native-Kubernetes Session job (e.g pod-template)  is entirely determined by the Flink-Session cluster deployed in advance, please refer to Flink Document: https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes</p>
 <br/>
@@ -1803,19 +1803,19 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">K8s PVC Usage</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/2-k8s-pvc-integration/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/flink-k8s/2-k8s-pvc-integration/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="k8s-pvc-resource-usage"> K8s PVC Resource Usage</h2>
 <p>The current version of StreamX Flink-K8s task has support for PVC resources based on Flink k8s-pod-template. Streamx supports editing <code>pod-template</code>, <code>jm-pod-template</code>, <code>tm-pod-template</code> configurations directly on the UI page.</p>
 <br/>
 <p>The following is a simple example, assuming that two PVCs, <code>flink-checkpoint</code> and <code>flink-savepoint</code>, have been created in advance.</p>
-<p><img src="http://assets.streamxhub.com/k8s_pvc.png" alt="image-20210927215912190"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_pvc.png" alt="image-20210927215912190"></p>
 <p>pod-template configuration:</p>
 <div><pre><code><span>apiVersion</span><span>:</span> v1
 <span>kind</span><span>:</span> Pod
@@ -1847,7 +1847,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 </li>
 <li>
 <p>Add the <code>rockdb-backend</code> coordinate to the Dependency configuration of the StreamX page (at this point StreamX will automatically resolve the dependency conflict):</p>
-<p><img src="http://assets.streamxhub.com/rocksdb_dependency.png" alt="image-20210927220203314"></p>
+<p><img src="/streamx-docs/assets/img/core-img/rocksdb_dependency.png" alt="image-20210927220203314"></p>
 </li>
 </ol>
 ]]></content>
@@ -1857,14 +1857,14 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">Hadoop Resource Integration</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/flink-k8s/3-hadoop-resource-integration/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/flink-k8s/3-hadoop-resource-integration/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="hadoop-resource-integration"> Hadoop Resource Integration</h2>
 <p>To use Hadoop resources under StreamX Flink-K8s runtime, such as checkpoint mounting HDFS, accessing Hive, etc.  Users need to build the relevant Flink Base Docker Image by themselves. The Image needs to contain the following content：</p>
 <ul>
@@ -1881,28 +1881,28 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">Flink SQL</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/flinksql/flinksql/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/flinksql/flinksql/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <author>
       <name>benjobs</name>
     </author>
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">框架介绍</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/guide/intro/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/guide/intro/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h1 id="streamx"> StreamX</h1>
 <p>let flink|spark easy</p>
 <blockquote>
@@ -1983,14 +1983,14 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">快速开始</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/guide/quickstart/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/guide/quickstart/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>千里之行始于足下,从这一刻开始即将进入<code>StreamX</code> 开发的奇妙旅程,准备好了吗? 让我们开始吧</p>
 <h2 id="起步"> 起步</h2>
 <p>我们要做的第一件事就是将项目clone到本地,执行编译,在编译前请确保以下事项</p>
@@ -2301,14 +2301,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">项目配置</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/model/conf/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/model/conf/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>配置在<code>StreamX</code>中是非常重要的概念,先说说为什么需要配置</p>
 <h2 id="为什么需要配置"> 为什么需要配置</h2>
 <p>开发<code>DataStream</code>程序,大体流程都可以抽象为以下4步</p>
@@ -2670,14 +2670,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">编程模型</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/model/model/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/model/model/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>任何框架都有一些要遵循的规则和约定,我们只有遵循并掌握了这些规则,才能更加游刃有余的使用,使其发挥事半功倍的效果, 我们开发<code>flink</code>作业,其实就是利用<code>flink</code>提供的api,按照<code>flink</code>要求的开发方式,写一个可以执行的(必须有<code>main()</code>函数)的程序,在程序里接入各种<code>Connector</code>经过一系列的<code>算子</code>操作,最终将数据通过<code>Connector</code>sink到目标存储,
 我们把这种按照某种约定的规则去逐步编程的方式称之为<code>编程模型</code>, 这一章节我们就来聊聊<code>StreamX</code>的<code>编程模型</code>以及开发注意事项</p>
 <p>我们从这几个方面开始入手</p>
@@ -3183,14 +3183,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">开发实例</title>
     <id>http://www.streamxhub.com/streamx-docs/doc/usecase/usecase/</id>
     <link href="http://www.streamxhub.com/streamx-docs/doc/usecase/usecase/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -3199,28 +3199,28 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">文档中心</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <author>
       <name>benjobs</name>
     </author>
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">高级扩展</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/advanced/advanced/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/advanced/advanced/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -3229,14 +3229,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Clickhouse Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/clickhouse/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/clickhouse/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -3245,14 +3245,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Elasticsearch Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/es/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/es/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -3261,14 +3261,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Http Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/http/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/http/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -3277,14 +3277,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Jdbc Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/jdbc/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/jdbc/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>Flink 官方 提供了<a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/connectors/jdbc.html" target="_blank" rel="noopener noreferrer">JDBC</a>的连接器,用于从 JDBC 中读取或者向其中写入数据,可提供 <mark>AT_LEAST_ONCE</mark> (至少一次)的处理语义</p>
 <p><code>StreamX</code>中基于两阶段提交实现了 <mark>EXACTLY_ONCE</mark> (精确一次)语义的<code>JdbcSink</code>,并且采用<a href="https://github.com/brettwooldridge/HikariCP" target="_blank" rel="noopener noreferrer"><code>光 HikariCP</code></a>为连接池,让数据的读取和写入更简单更准确</p>
 <h2 id="jdbc-信息配置"> Jdbc 信息配置</h2>
@@ -3608,14 +3608,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Apache Kafka Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/kafka/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/kafka/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/zh/dev/connectors/kafka.html" target="_blank" rel="noopener noreferrer">Flink 官方</a>提供了<a href="http://kafka.apache.org" target="_blank" rel="noopener noreferrer">Apache Kafka</a>的连接器,用于从 Kafka topic 中读取或者向其中写入数据,可提供 <mark>精确一次</mark> 的处理语义</p>
 <p><code>StreamX</code>中<code>KafkaSource</code>和<code>KafkaSink</code>基于官网的<code>kafka connector</code>进一步封装,屏蔽很多细节,简化开发步骤,让数据的读取和写入更简单</p>
 <h2 id="依赖"> 依赖</h2>
@@ -4421,14 +4421,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">MongoDb Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/mongo/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/mongo/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -4437,14 +4437,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Redis Connector</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/connector/redis/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/connector/redis/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -4453,14 +4453,14 @@ myConsumer<span>.</span><span>setStartFromGroupOffsets</span><span>(</span><span
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">安装部署</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/console/deploy/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/console/deploy/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>streamx-console 是一个综合实时数据平台，低代码 ( Low Code ) ,Flink Sql 平台，可以较好的管理 Flink 任务，集成了项目编译、发布、参数配置、启动、savepoint,火焰图 ( flame graph ) ,Flink SQL,监控等诸多功能于一体，大大简化了 Flink 任务的日常操作和维护，融合了诸多最佳实践。其最终目标是打造成一个实时数仓，流批一体的一站式大数据解决方案</p>
 </blockquote>
@@ -4597,14 +4597,14 @@ streamx-console-service-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">开发环境</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/console/deployment/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/console/deployment/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p><span style="background-color:#ffffff; color:#333333">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="https://github.com/streamxhub/streamx" target="_blank">StreamX</a><span style="background-color:#ffffff; color:#333333">&nbsp;</span>遵循 Apache-2.0 开源协议，将会是个长期更新的活跃项目，欢迎大家提交<a href="https://github.com/streamxhub/streamx/pulls">PR</a> 或 <a href="https://github.com/streamxhub/streamx/issues/new/choose">Issue</a>。喜欢请给个 <a href="https://github.com/streamxhub/streamx/stargazers">Star</a>。您的支持是我们最大的动力， 该项目从开源以来受到不少朋友的关注和认可，表示感谢，已陆续有来自金融，数据分析，车联网，智能广告，地产等公司的朋友在使用或二开，也不乏来自一线大厂的朋友在研究使用，欢迎更多的开发者加入一块贡献，不只是代码的贡献，还寻求使用文档，体验报告，问答等方面的贡献</p>
 <p>StreamX 总体组件栈架构如下， 由 streamx-core 和 streamx-console 两个大的部分组成，其中 streamx-core 是开发时框架，这里不做讲解，本章节具体讲讲如何在本地搭建 streamx-console 流批一体平台的开发环境，为了方便讲解，本文中所说的 <code>streamx-console</code> 均指 <code>streamx-console 平台</code></p>
 <center>
@@ -4757,14 +4757,14 @@ streamx-console-service-${version}
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">快速开始</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/console/quickstart/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/console/quickstart/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="如何使用"> 如何使用</h2>
 <p>streamx-console 定位是流批一体的大数据平台，一站式解决方案，使用起来非常简单，没有复杂的概念和繁琐的操作，标准的 Flink 程序 ( 安装 Flink 官方要去的结构和规范 ) 和用 <code>streamx</code> 开发的项目都做了很好的支持，下面我们使用 <code>streamx-quickstart</code> 来快速开启 streamx-console 之旅</p>
 <p><code>streamx-quickstart</code> 是 StreamX 开发 Flink 的上手示例程序，具体请查阅</p>
@@ -4868,14 +4868,14 @@ streamx-console-service-${version}
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">Flink K8s 集成支持</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/1-deployment/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/1-deployment/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>StreamX Flink Kubernetes 基于 <a href="https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes/" target="_blank" rel="noopener noreferrer">Flink Native Kubernetes</a> 实现，支持以下 Flink 运行模式：</p>
 <ul>
 <li>Native-Kubernetes Application</li>
@@ -4905,7 +4905,7 @@ streamx-console-service-${version}
 </code></pre>
 <div><span>1</span><br></div></div><h3 id="docker-远程容器服务配置"> Docker 远程容器服务配置</h3>
 <p>在 StreamX Setting 页面，配置目标 Kubernetes 集群所使用的 Docker 容器服务的连接信息。</p>
-<p><img src="http://assets.streamxhub.com/docker_register_setting.png" alt="image-20210927182540478"></p>
+<p><img src="/streamx-docs/assets/img/core-img/docker_register_setting.png" alt="image-20210927182540478"></p>
 <p>在远程 Docker 容器服务创建一个名为 <code>streamx</code> 的 Namespace ，为 StreamX 自动构建的 Flink image 推送空间，请确保使用的 Docker Register User 具有该  Namespace 的 <code>pull</code>/<code>push</code> 权限。</p>
 <p>可以在 StreamX 所在节点通过 docker command 简单测试权限：</p>
 <div><pre><code><span># verify access</span>
@@ -4920,7 +4920,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><br/>
 <h2 id="任务提交"> 任务提交</h2>
 <h3 id="application-任务发布"> Application 任务发布</h3>
-<p><img src="http://assets.streamxhub.com/k8s_application_submit.png" alt="image-20210927203759713"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_application_submit.png" alt="image-20210927203759713"></p>
 <p>其中需要说明的参数如下：</p>
 <ul>
 <li><strong>Flink Base Docker Image</strong>： 基础 Flink Docker 镜像的 Tag，可以直接从 <a href="https://hub.docker.com/_/flink" target="_blank" rel="noopener noreferrer">DockerHub - offical/flink</a> 获取，也支持用户私有的底层镜像，此时在 setting 设置 Docker Register Account 需要具备该私有镜像 	<code>pull</code> 权限。</li>
@@ -4934,7 +4934,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 <li><strong>Kubernetes Pod Template</strong>： Flink 自定义 pod-template 配置。</li>
 </ul>
 <p>任务启动后，支持在该任务的 Detail 页直接访问对应的 Flink Web UI 页面：</p>
-<p><img src="http://assets.streamxhub.com/k8s_app_detail.png" alt="image-20210927210034861"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_app_detail.png" alt="image-20210927210034861"></p>
 <h3 id="session-任务发布"> Session 任务发布</h3>
 <p>Flink-Native-Kubernetes Session 任务 K8s 额外的配置（pod-template 等）完全由提前部署的 Flink-Session 集群决定，请直接参考 Flink-Doc：https://ci.apache.org/projects/flink/flink-docs-stable/docs/deployment/resource-providers/native_kubernetes</p>
 <br/>
@@ -4988,20 +4988,20 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">K8s PVC 资源使用</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/2-k8s-pvc-integration/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/2-k8s-pvc-integration/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="k8s-pvc-资源使用说明"> K8s PVC 资源使用说明</h2>
 <p>当前版本 StreamX Flink-K8s 任务对 PVC 资源（挂载 checkpoint/savepoint/logs 等文件资源）的支持基于 pod-template。</p>
 <p>Native-Kubernetes Session 由创建 Session Cluster 时控制，这里不再赘述。Native-Kubernetes Application 支持在 StreamX 页面上直接编写 <code>pod-template</code>，<code>jm-pod-template</code>，<code>tm-pod-template</code> 配置。</p>
 <br/>
 <p>以下是一个简要的示例，假设已经提前创建 <code>flink-checkpoint</code>， <code>flink-savepoint</code> 两个 PVC ：</p>
-<p><img src="http://assets.streamxhub.com/k8s_pvc.png" alt="image-20210927215912190"></p>
+<p><img src="/streamx-docs/assets/img/core-img/k8s_pvc.png" alt="image-20210927215912190"></p>
 <p>pod-template 配置文本如下：</p>
 <div><pre><code><span>apiVersion</span><span>:</span> v1
 <span>kind</span><span>:</span> Pod
@@ -5033,7 +5033,7 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
 </li>
 <li>
 <p>在 StreamX Dependency 配置中加入 rockdb-backend 依赖（此时 StreamX 会自动解决依赖冲突）：</p>
-<p><img src="http://assets.streamxhub.com/rocksdb_dependency.png" alt="image-20210927220203314"></p>
+<p><img src="/streamx-docs/assets/img/core-img/rocksdb_dependency.png" alt="image-20210927220203314"></p>
 </li>
 </ol>
 <br/>
@@ -5045,14 +5045,14 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">Hadoop 资源集成</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/3-hadoop-resource-integration/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/flink-k8s/3-hadoop-resource-integration/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="在-k8s-上使用-hadoop-资源"> 在 K8s 上使用 Hadoop 资源</h2>
 <p>在 StreamX Flink-K8s runtime 下使用 Hadoop 资源，如 checkpoint 挂载 HDFS、读写 Hive 等，目前用户需要自行构建相关 Flink Base   Docker Image，Image 中需要包含以下内容：</p>
 <ul>
@@ -5069,28 +5069,28 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>Al-assad</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by Al-assad</rights>
   </entry>
   <entry>
     <title type="html">Flink SQL</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/flinksql/flinksql/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/flinksql/flinksql/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <author>
       <name>benjobs</name>
     </author>
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">框架介绍</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/guide/intro/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/guide/intro/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h1 id="streamx"> StreamX</h1>
 <p>let flink|spark easy</p>
 <blockquote>
@@ -5171,14 +5171,14 @@ docker pull <span>&lt;</span>your_register_addr<span>></span>/streamx/busybox
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">快速开始</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/guide/quickstart/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/guide/quickstart/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>千里之行始于足下,从这一刻开始即将进入<code>StreamX</code> 开发的奇妙旅程,准备好了吗? 让我们开始吧</p>
 <h2 id="起步"> 起步</h2>
 <p>我们要做的第一件事就是将项目clone到本地,执行编译,在编译前请确保以下事项</p>
@@ -5489,14 +5489,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">项目配置</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/model/conf/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/model/conf/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>配置在<code>StreamX</code>中是非常重要的概念,先说说为什么需要配置</p>
 <h2 id="为什么需要配置"> 为什么需要配置</h2>
 <p>开发<code>DataStream</code>程序,大体流程都可以抽象为以下4步</p>
@@ -5858,14 +5858,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">编程模型</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/model/model/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/model/model/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<p>任何框架都有一些要遵循的规则和约定,我们只有遵循并掌握了这些规则,才能更加游刃有余的使用,使其发挥事半功倍的效果, 我们开发<code>flink</code>作业,其实就是利用<code>flink</code>提供的api,按照<code>flink</code>要求的开发方式,写一个可以执行的(必须有<code>main()</code>函数)的程序,在程序里接入各种<code>Connector</code>经过一系列的<code>算子</code>操作,最终将数据通过<code>Connector</code>sink到目标存储,
 我们把这种按照某种约定的规则去逐步编程的方式称之为<code>编程模型</code>, 这一章节我们就来聊聊<code>StreamX</code>的<code>编程模型</code>以及开发注意事项</p>
 <p>我们从这几个方面开始入手</p>
@@ -6371,14 +6371,14 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
   <entry>
     <title type="html">开发实例</title>
     <id>http://www.streamxhub.com/streamx-docs/zh/doc/usecase/usecase/</id>
     <link href="http://www.streamxhub.com/streamx-docs/zh/doc/usecase/usecase/"/>
-    <updated>2021-12-20T09:55:57.000Z</updated>
+    <updated>2021-12-21T16:35:53.000Z</updated>
     <content type="html"><![CDATA[<h3 id="待更新"> ---待更新---</h3>
 ]]></content>
     <author>
@@ -6387,7 +6387,7 @@ Streamx-flink-quickstart-1.0.0
     <contributor>
       <name>benjobs</name>
     </contributor>
-    <published>2021-12-20T09:55:57.000Z</published>
+    <published>2021-12-21T16:35:53.000Z</published>
     <rights>Copyright by benjobs</rights>
   </entry>
 </feed>
