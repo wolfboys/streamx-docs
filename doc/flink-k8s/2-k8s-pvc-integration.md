@@ -14,7 +14,7 @@ The current version of StreamX Flink-K8s task has support for PVC resources base
 
 The following is a simple example, assuming that two PVCs, `flink-checkpoint` and `flink-savepoint`, have been created in advance.
 
-![image-20210927215912190](http://assets.streamxhub.com/k8s_pvc.png)
+![image-20210927215912190](/streamx-docs/assets/img/core-img/k8s_pvc.png)
 
 pod-template configuration:
 
@@ -48,5 +48,5 @@ Since `rockdb-backend` is used, there are 3 ways to provide this dependency:
 
 3. Add the `rockdb-backend ` coordinate to the Dependency configuration of the StreamX page (at this point StreamX will automatically resolve the dependency conflict):
 
-   ![image-20210927220203314](http://assets.streamxhub.com/rocksdb_dependency.png)
+   ![image-20210927220203314](/streamx-docs/assets/img/core-img/rocksdb_dependency.png)
 

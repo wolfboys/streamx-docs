@@ -75,7 +75,7 @@
             </div>
             <div class="col-12 col-md-6">
               <div class="welcome_area_thumb text-center" data-wow-delay="0.2s">
-                <a href="https://gitee.com/gvp" target="_blank"><img src="/streamx-docs/assets/img/bg-img/gvp2021.png" alt=""></a>
+                <a href="https://gitee.com/gvp" target="_blank"><img src="/streamx-docs/assets/img/core-img/gvp2021.png" alt=""></a>
                 <a class="video_btn video-btn" style="display: none" href="http://assets.streamxhub.com/streamx-video.mp4" data-wow-delay="0.5s">
                   <i class="lni-play"></i>
                   <span class="video-sonar"></span>
@@ -354,10 +354,9 @@ export default {
     return {
       swiperIndex: 0,
       swiperImage: [
-          'http://assets.streamxhub.com/gvp2021.png',
-          'http://assets.streamxhub.com/streamx_theme.png',
-          'http://assets.streamxhub.com/1617033782728.png',
-          'http://assets.streamxhub.com/1617033782731.png',
+          '/streamx-docs/assets/img/core-img/streamx-theme.png',
+          '/streamx-docs/assets/img/core-img/streamx-flinksql.png',
+          '/streamx-docs/assets/img/core-img/flameGraph.jpg',
       ],
       swiperOption: {
         loop: true,
@@ -403,56 +402,6 @@ export default {
       } else {
         this.swiper.slidePrev(2000, false)
       }
-    },
-    showCode() {
-     /*
-      monaco.editor.create(document.querySelector(".code-container"), {
-        value: "\n" +
-            "import com.streamxhub.streamx.flink.core.scala.FlinkStreaming\n" +
-            "import com.streamxhub.streamx.flink.core.scala.sink.JdbcSink\n" +
-            "import com.streamxhub.streamx.flink.core.scala.source.KafkaSource\n" +
-            "import org.apache.flink.api.scala._\n" +
-            "\n" +
-            "object kafkaSourceApp extends FlinkStreaming {\n" +
-            "\n" +
-            "    override def handle(): Unit = {\n" +
-            "        val source = KafkaSource().getDataStream[String]()\n" +
-            "        print(source)\n" +
-            "    }\n" +
-            "\n" +
-            "}",
-        theme: 'vs',// 'dark' ?  : 'vs'
-        language: "scala",
-        selectOnLineNumbers: false,
-        foldingStrategy: 'indentation', // 代码分小段折叠
-        overviewRulerBorder: false, // 不要滚动条边框
-        autoClosingBrackets: true,
-        tabSize: 2, // tab 缩进长度
-        readOnly: true,
-        inherit: true,
-        scrollBeyondLastLine: false,
-        lineNumbersMinChars: 5,
-        lineHeight: 24,
-        automaticLayout: true,
-        cursorBlinking: 'line',
-        cursorStyle: 'line',
-        cursorWidth: 3,
-        renderFinalNewline: true,
-        renderLineHighlight: 'all',
-        minimap: {enabled: false},
-        quickSuggestionsDelay: 100,  //代码提示延时
-        scrollbar: {
-          useShadows: false,
-          vertical: 'visible',
-          horizontal: 'visible',
-          horizontalSliderSize: 5,
-          verticalSliderSize: 5,
-          horizontalScrollbarSize: 15,
-          verticalScrollbarSize: 15
-        }
-      });
-
-      */
     }
   },
 }
