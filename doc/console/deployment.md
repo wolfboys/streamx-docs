@@ -178,27 +178,16 @@ streamx web 前端部分采用 nodejs + vue 开发，因此需要在机器上按
 #### 修改请求 URL
 
 由于是前后端分离项目，前端需要知道后端 ( streamx-console ) 的访问地址，才能前后配合工作，因此需要后端的 URL,具体位置在:
-`streamx-console/streamx-console-webapp/src/api/baseUrl.js`
+`streamx-console/streamx-console-webapp/.env.development`
 
 配置默认如下:
 
 ```javascript
-export function baseUrl() {
-    let url = ''
-    switch (process.env.NODE_ENV) {
-        //混合打包 ( production,不用配置，maven 编译项目阶段-Denv=prod 自动将环境参数透传到这里 )
-        case 'production':
-            url = (arguments[0] || null) ? (location.protocol + '//' + location.host) : '/'
-            break
-        //开发测试阶段采用前后端分离，这里配置后端的请求 URI
-        case 'development':
-            url = 'http://localhost:10000'
-            break
-    }
-    return url
-}
+VUE_APP_PORT = 10003
+VUE_APP_BASE_API = http://localhost:10000
 ```
-将 `development` 下的 URL 连接改为后端的 URI 即可
+将 `VUE_APP_BASE_API` 下的 URL 连接改为后端的地址 即可
+`VUE_APP_PORT` 为前端项目的启动端口
 
 #### 编译项目
 
