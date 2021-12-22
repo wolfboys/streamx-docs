@@ -527,7 +527,7 @@ class JavaUser implements Serializable {
 
 返回的对象被包装在`KafkaRecord`中,`kafkaRecord`中有当前的`offset`,`partition`,`timestamp`等诸多有用的信息供开发者使用,其中`value`即返回的目标对象,如下图:
 
-![](http://assets.streamxhub.com/1616492587158.jpg)
+![](/streamx-docs/assets/img/doc-img/streamx_kafkaapi.jpeg)
 
 ### 指定strategy
 

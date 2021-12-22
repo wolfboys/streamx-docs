@@ -76,7 +76,7 @@
             <div class="col-12 col-md-6">
               <div class="welcome_area_thumb text-center" data-wow-delay="0.2s">
                 <a href="https://gitee.com/gvp" target="_blank"><img src="/streamx-docs/assets/img/core-img/gvp2021.png" alt=""></a>
-                <a class="video_btn video-btn" style="display: none" href="http://assets.streamxhub.com/streamx-video.mp4" data-wow-delay="0.5s">
+                <a class="video_btn video-btn" style="display: none" href="/streamx-docs/assets/video/streamx-video.mp4" data-wow-delay="0.5s">
                   <i class="lni-play"></i>
                   <span class="video-sonar"></span>
                 </a>

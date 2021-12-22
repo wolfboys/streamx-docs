@@ -128,7 +128,7 @@ bash startup.sh
 
 打开浏览器 输入 <strong> ==http://$host:10000== </strong> 即可登录，登录界面如下
 
-<img src="http://assets.streamxhub.com/1621785003798.jpg"/>
+<img src="/streamx-docs/assets/img/doc-img/streamx_login.jpeg"/>
 
 ::: info 提示
 默认密码: <strong> admin / streamx </strong>
@@ -138,7 +138,7 @@ bash startup.sh
 
 进入系统之后，第一件要做的事情就是修改系统配置，在菜单/StreamX/Setting 下，操作界面如下:
 
-<img src="http://assets.streamxhub.com/streamx-settings.png"/>
+<img src="/streamx-docs/assets/img/doc-img/streamx_settings.png"/>
 
 主要配置项分为以下几类
 

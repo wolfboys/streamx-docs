@@ -21,7 +21,7 @@ original: true
 
 </div>
 
-![](http://assets.Streamxhub.com/20210317134700.png)
+![](/streamx-docs/assets/img/doc-img/process_steps.png)
 
 开发`DataStream`程序都需要定义`Environment`初始化并且配置环境相关的参数,一般我们都会在第一步初始化`Environment`并配置各种参数,配置的参数大概有以下几类
 
@@ -241,7 +241,7 @@ Memory相关的参数设置也非常之多,一般常见的配置如下
 Flink JVM 进程的进程总内存（Total Process Memory）包含了由 Flink 应用使用的内存（Flink 总内存）以及由运行 Flink 的 JVM 使用的内存。 Flink 总内存（Total Flink Memory）包括 JVM 堆内存（Heap Memory）和堆外内存（Off-Heap Memory）。 其中堆外内存包括直接内存（Direct Memory）和本地内存（Native Memory）
 
 <center>
-<img src="http://assets.Streamxhub.com/process_mem_model.svg" width="340px"/>
+<img src="/streamx-docs/assets/img/doc-img/process_mem_model.svg" width="340px"/>
 </center>
 
 配置 Flink 进程内存最简单的方法是指定以下两个配置项中的任意一个：

@@ -11,7 +11,7 @@ date: 2020/07/05
 StreamX 总体组件栈架构如下， 由 streamx-core 和 streamx-console 两个大的部分组成，其中 streamx-core 是开发时框架，这里不做讲解，本章节具体讲讲如何在本地搭建 streamx-console 流批一体平台的开发环境，为了方便讲解，本文中所说的 `streamx-console` 均指 `streamx-console 平台 `
 
 <center>
-<img src="http://assets.streamxhub.com/streamx1.png"/><br>
+<img src="/streamx-docs/assets/img/doc-img/streamx_archite.png"/><br>
 </center>
 
 
@@ -128,7 +128,7 @@ streamx-console-service-${version}
 
 用 IDE 导入刚从 git 上 clone 下来的 StreamX 源码 ( 推荐使用 `IntelliJ IDEA` ) ,进入到 `resources` 下，编辑 application-prod.xml,找到 `datasource`,修改下 jdbc 的连接信息，具体可参考安装部署章节 [修改配置](http://www.streamxhub.com/zh/doc/console/deploy/#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE) 部分
 
-<img src="http://assets.streamxhub.com/131861625472901_.pic_hd.jpg" />
+<img src="/streamx-docs/assets/img/doc-img/console_conf.jpg" />
 
 如果你要连接的目标集群开启了 kerberos 认证，则需要配置 kerberos 信息，在 `resources` 下找到 `kerberos.xml` 配置上相关信息即可，默认 kerberos 是关闭状态，要启用需将 `enable` 设置为 true, 如下:
 
@@ -167,7 +167,7 @@ java:
 如使用非本地安装的 hadoop 集群 ( 测试 hadoop ) `Environment variables` 中需要配置 `HADOOP_USER_NAME` 和 `HADOOP_CONF_DIR`,
 `HADOOP_USER_NAME` 为 hdfs 或者有读写权限的 hadoop 用户名，`HADOOP_CONF_DIR` 为上面第一步安装 hadoop 步骤中从测试集群 copy 相关配置文件在开发机器上的存放位置，如果是本地安装的 hadoop 则不需要配置该项，
 
-<img src="http://assets.streamxhub.com/131891625474138_.pic_hd.jpg" />
+<img src="/streamx-docs/assets/img/doc-img/streamx_ideaopt.jpg" />
 
 如果一切准假就绪，就可以直接启动 `StreamXConsole` 主类启动项目，后端就启动成功了。会看到有相关的启动信息打印输出
 

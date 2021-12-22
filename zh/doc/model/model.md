@@ -25,7 +25,7 @@ original: true
 ## 架构
 
 <center>
-<img src="http://assets.streamxhub.com/streamx1.png"/><br>
+<img src="/streamx-docs/assets/img/doc-img/streamx_archite.png"/><br>
 </center>
 
 ## 编程模型
@@ -195,7 +195,7 @@ public class JavaStreamTableApp {
 `RunTime Context` —— ==`StreamingContext`== , ==`TableContext`== , ==`StreamTableContext`== 是`StreamX`中几个非常重要三个对象,接下来我们具体看看这三个`Context`的定义和作用
 
 <center>
-<img src="http://assets.streamxhub.com/streamx-core6.png" width="60%"/>
+<img src="/streamx-docs/assets/img/doc-img/streamx_coreapi.png" width="60%"/>
 </center>
 
 ### StreamingContext
@@ -445,7 +445,7 @@ StreamTableContext context = new StreamTableContext(javaConfig);
 
 在`StreamTableContext`中可以直接使用`StreamExecutionEnvironment`的`API`, ==以$打头的方法== 都是`StreamExecutionEnvironment`的API
 
-![](http://assets.streamxhub.com/1617268992558.jpg)
+![](/streamx-docs/assets/img/doc-img/streamx_apis.jpeg)
 
 :::
 
@@ -486,7 +486,7 @@ StreamTableContext context = new StreamTableContext(javaConfig);
 * **start**         程序启动阶段
 * **destroy**       销毁阶段
 
-![Life Cycle](http://assets.streamxhub.com/streamx_scala_life_cycle.png)
+![Life Cycle](/streamx-docs/assets/img/doc-img/streamx_scala_life_cycle.png)
 
 ### 生命周期之—— init
 **init** 阶段,框架会自动解析传入的配置文件,按照里面的定义的各种参数初始化`StreamExecutionEnvironment`,这一步是框架自动执行,不需要开发者参与

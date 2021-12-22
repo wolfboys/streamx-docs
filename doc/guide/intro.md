@@ -13,7 +13,7 @@ let flink|spark easy
 使用`StreamX`开发,可以极大降低学习成本和开发门槛, 让开发者只用关心最核心的业务,`StreamX` 规范了项目的配置,鼓励函数式编程,定义了最佳的编程方式,提供了一系列开箱即用的`Connectors`,标准化了配置、开发、测试、部署、监控、运维的整个过程, 提供`scala`和`java`两套api,
 其最终目的是打造一个一站式大数据平台,流批一体,湖仓一体的解决方案
 
-<video src="http://assets.streamxhub.com/streamx-video.mp4" controls="controls" autoplay="autoplay" width="100%" height="100%"></video>
+<video src="/streamx-docs/assets/video/streamx-video.mp4" controls="controls" autoplay="autoplay" width="100%" height="100%"></video>
 
 
 ## 🎉 Features
@@ -42,7 +42,7 @@ let flink|spark easy
 `Streamx`有三部分组成,分别是`streamx-core`,`streamx-pump` 和 `streamx-console`
 
 <center>
-<img src="http://assets.streamxhub.com/streamx1.png"/><br>
+<img src="/streamx-docs/assets/img/doc-img/streamx_archite.png"/><br>
 </center>
 
 ### 1️⃣ streamx-core

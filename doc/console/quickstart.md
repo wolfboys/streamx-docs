@@ -19,13 +19,13 @@ streamx-console 定位是流批一体的大数据平台，一站式解决方案�
 
 下面的示例演示了如何部署一个 DataStream 应用
 
-<video src="http://assets.streamxhub.com/20210408008.mp4" controls="controls" width="100%" height="100%"></video>
+<video src="/streamx-docs/assets/video/datastream.mp4" controls="controls" width="100%" height="100%"></video>
 
 ### 部署 FlinkSql 任务
 
 下面的示例演示了如何部署一个 FlinkSql 应用
 
-<video src="http://assets.streamxhub.com/flinksql.mp4" controls="controls" width="100%" height="100%"></video>
+<video src="/streamx-docs/assets/video/flinksql.mp4" controls="controls" width="100%" height="100%"></video>
 
 - 项目演示使用到的 flink sql 如下
 
@@ -110,7 +110,7 @@ GROUP BY DATE_FORMAT(ts, 'yyyy-MM-dd HH:00');
 任务启动流程图如下
 
 <center>
-<img src="http://assets.streamxhub.com/streamx-submit2.png?1234"/><br>
+<img src="/streamx-docs/assets/img/doc-img/streamx_start.png"/><br>
 <strong>streamx-console 提交任务流程</strong>
 </center>
 

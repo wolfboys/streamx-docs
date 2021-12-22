@@ -16,7 +16,7 @@ Native-Kubernetes Session 由创建 Session Cluster 时控制，这里不再赘�
 
 以下是一个简要的示例，假设已经提前创建 `flink-checkpoint`， `flink-savepoint` 两个 PVC ：
 
-![image-20210927215912190](/streamx-docs/assets/img/core-img/k8s_pvc.png)
+![k8s pvc](/streamx-docs/assets/img/doc-img/k8s_pvc.png)
 
 pod-template 配置文本如下：
 
@@ -50,7 +50,7 @@ spec:
 
 3. 在 StreamX Dependency 配置中加入 rockdb-backend 依赖（此时 StreamX 会自动解决依赖冲突）：
 
-   ![image-20210927220203314](/streamx-docs/assets/img/core-img/rocksdb_dependency.png)
+   ![rocksdb dependency](/streamx-docs/assets/img/doc-img/rocksdb_dependency.png)
 
 <br/>
 
